@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c792ea" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#021a11" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bg)"/>
+  <g fill="none" stroke="#c792ea" stroke-width="4" stroke-linecap="round">
+    <path d="M 300 110 A 100 65 0 0 1 500 110" opacity="0.85"/>
+    <path d="M 493 100 L 500 110 L 510 96" opacity="0.85"/>
+    <path d="M 500 190 A 100 65 0 0 1 300 190" opacity="0.6"/>
+    <path d="M 307 200 L 300 190 L 290 204" opacity="0.6"/>
+  </g>
+  <circle cx="270" cy="150" r="46" fill="#021a11" stroke="#c792ea" stroke-width="2" stroke-opacity="0.5"/>
+  <text x="270" y="163" font-family="DM Mono, monospace" font-size="34" font-weight="700" fill="#c792ea" text-anchor="middle">$</text>
+  <circle cx="530" cy="150" r="46" fill="#021a11" stroke="#c792ea" stroke-width="2" stroke-opacity="0.5"/>
+  <text x="530" y="161" font-family="DM Mono, monospace" font-size="26" font-weight="700" fill="#c792ea" text-anchor="middle">R$</text>
+  <text x="60" y="260" font-family="DM Mono, monospace" font-size="15" fill="#c792ea" opacity="0.45" letter-spacing="2">USD/BRL</text>
+</svg>

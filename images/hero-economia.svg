@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5c842" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#021a11" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bg)"/>
+  <polyline points="0,190 120,175 240,195 360,150 480,165 600,110 800,95"
+    fill="none" stroke="#f5c842" stroke-width="2" stroke-opacity="0.18"/>
+  <g fill="#f5c842" fill-opacity="0.85">
+    <polygon points="400,58 470,105 330,105"/>
+    <rect x="322" y="105" width="156" height="10"/>
+  </g>
+  <g fill="#f5c842" fill-opacity="0.6">
+    <rect x="335" y="122" width="16" height="88"/>
+    <rect x="366" y="122" width="16" height="88"/>
+    <rect x="397" y="122" width="16" height="88"/>
+    <rect x="428" y="122" width="16" height="88"/>
+    <rect x="449" y="122" width="16" height="88"/>
+  </g>
+  <rect x="315" y="210" width="170" height="12" fill="#f5c842" fill-opacity="0.85"/>
+  <rect x="290" y="222" width="220" height="8" fill="#f5c842" fill-opacity="0.4"/>
+  <g stroke="#f5c842" stroke-width="1.5" stroke-opacity="0.3">
+    <line x1="0" y1="222" x2="800" y2="222"/>
+  </g>
+  <text x="60" y="60" font-family="DM Mono, monospace" font-size="15" fill="#e4d38a" opacity="0.5" letter-spacing="2">SELIC · PIB · IPCA</text>
+</svg>

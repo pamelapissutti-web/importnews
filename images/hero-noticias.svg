@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2ec98e" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#021a11" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bg)"/>
+  <rect x="290" y="70" width="220" height="160" rx="6" fill="#021a11" stroke="#2ec98e" stroke-width="2" stroke-opacity="0.55"/>
+  <rect x="312" y="94" width="90" height="60" fill="#2ec98e" fill-opacity="0.28"/>
+  <g stroke="#2ec98e" stroke-opacity="0.55" stroke-width="4" stroke-linecap="round">
+    <line x1="312" y1="168" x2="488" y2="168"/>
+    <line x1="312" y1="182" x2="488" y2="182"/>
+    <line x1="312" y1="196" x2="440" y2="196"/>
+  </g>
+  <g stroke="#3dd9a0" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round">
+    <line x1="412" y1="100" x2="488" y2="100"/>
+    <line x1="412" y1="114" x2="488" y2="114"/>
+    <line x1="412" y1="128" x2="466" y2="128"/>
+  </g>
+  <text x="400" y="216" font-family="DM Mono, monospace" font-size="14" fill="#7abf98" opacity="0.6" text-anchor="middle" letter-spacing="3">IMPORT NEWS</text>
+</svg>

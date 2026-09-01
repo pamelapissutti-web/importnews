@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2ec98e" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#021a11" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bg)"/>
+  <g stroke="#2ec98e" stroke-opacity="0.14" stroke-width="1">
+    <line x1="0" y1="60" x2="800" y2="60"/>
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="240" x2="800" y2="240"/>
+  </g>
+  <g fill="#2ec98e">
+    <rect x="120" y="205" width="46" height="55" rx="4" fill-opacity="0.35"/>
+    <rect x="210" y="175" width="46" height="85" rx="4" fill-opacity="0.42"/>
+    <rect x="300" y="150" width="46" height="110" rx="4" fill-opacity="0.5"/>
+    <rect x="390" y="120" width="46" height="140" rx="4" fill-opacity="0.6"/>
+    <rect x="480" y="95" width="46" height="165" rx="4" fill-opacity="0.72"/>
+    <rect x="570" y="65" width="46" height="195" rx="4" fill-opacity="0.85"/>
+  </g>
+  <polyline points="143,205 233,175 323,150 413,120 503,95 593,65"
+    fill="none" stroke="#3dd9a0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <g fill="#3dd9a0">
+    <circle cx="143" cy="205" r="4.5"/>
+    <circle cx="233" cy="175" r="4.5"/>
+    <circle cx="323" cy="150" r="4.5"/>
+    <circle cx="413" cy="120" r="4.5"/>
+    <circle cx="503" cy="95" r="4.5"/>
+    <circle cx="593" cy="65" r="5.5"/>
+  </g>
+  <path d="M593 65 L 625 50 M 625 50 L 612 50 M 625 50 L 625 63" stroke="#3dd9a0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="668" y="150" font-family="DM Mono, monospace" font-size="15" fill="#7abf98" opacity="0.55" letter-spacing="2">IBOV</text>
+</svg>
