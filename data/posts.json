@@ -1,5 +1,53 @@
 [
   {
+    "slug": "ibovespa-cai-payroll-eua-acima-esperado",
+    "title": "Ibovespa cai após payroll dos EUA vir muito acima do esperado",
+    "excerpt": "O Ibovespa cai nesta sexta-feira (4/9) após payroll dos EUA vir muito acima do esperado, pressionando Vale, Petrobras e bancos na bolsa brasileira.",
+    "paragraphs": [
+      "O Ibovespa operava em queda nesta sexta-feira (4/9), perto dos 183,8 mil pontos, revertendo parte do rali acumulado nas sessões anteriores.",
+      "O movimento negativo teve como principal gatilho o payroll americano de agosto, divulgado nesta manhã, que mostrou criação de 162 mil vagas de emprego — bem acima das cerca de 56 mil esperadas pelo mercado, o que reforçou a cautela dos investidores com o ritmo de cortes de juros nos Estados Unidos e pressionou ações como Vale, Petrobras e os grandes bancos."
+    ],
+    "sourceLabel": "InfoMoney",
+    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-abertura-fechamento-04092026/",
+    "date": "2026-09-04T14:20:00.000Z"
+  },
+  {
+    "slug": "dolar-sobe-513-payroll-forte-eua",
+    "title": "Dólar sobe a R$ 5,13 com payroll forte nos Estados Unidos",
+    "excerpt": "Dólar sobe a R$ 5,13 nesta sexta-feira (4/9) após payroll dos EUA vir bem acima do esperado, reduzindo apostas em cortes de juros pelo Fed.",
+    "paragraphs": [
+      "O dólar comercial subia nesta sexta-feira (4/9), cotado perto de R$ 5,13 na venda, alta de cerca de 0,44% ante o fechamento anterior, enquanto o contrato futuro da moeda para outubro avançava a R$ 5,151 na B3.",
+      "A valorização acompanhou o payroll de agosto nos Estados Unidos, com 162 mil vagas criadas ante uma expectativa de 56 mil — dado que reduz as apostas em cortes rápidos de juros pelo Federal Reserve e tende a fortalecer a moeda americana no cenário global."
+    ],
+    "sourceLabel": "SpaceMoney",
+    "sourceUrl": "https://www.spacemoney.com.br/economia/dolar-hoje/dolar-hoje-sobe-com-dados-de-emprego-nos-eua",
+    "date": "2026-09-04T14:20:20.000Z"
+  },
+  {
+    "slug": "bitcoin-supera-81-mil-alivio-juros-fed",
+    "title": "Bitcoin supera US$ 81 mil com alívio nas apostas de juros do Fed",
+    "excerpt": "Bitcoin supera US$ 81 mil nesta sexta-feira (4/9), maior nível desde maio, após fala do dirigente do Fed Christopher Waller aliviar aversão a risco.",
+    "paragraphs": [
+      "O Bitcoin superou os US$ 81 mil nesta sexta-feira (4/9), com alta de mais de 5% em 24 horas e o maior patamar desde meados de maio, movimento acompanhado por Ethereum, XRP, Solana e BNB, também em forte alta no dia.",
+      "A escalada foi puxada por comentários do dirigente do Federal Reserve Christopher Waller, que sinalizou foco no próximo relatório de inflação em vez de uma postura mais dura sobre juros — o que reduziu a aversão a risco e ajudou a atrair o maior volume de entradas em ETFs de Bitcoin em nove meses."
+    ],
+    "sourceLabel": "Money Times",
+    "sourceUrl": "https://www.moneytimes.com.br/bom-dia-bitcoin-btc-criptomoedas-precos-hoje-rens-040926/",
+    "date": "2026-09-04T14:20:40.000Z"
+  },
+  {
+    "slug": "petrobras-petr4-santander-compra-alvo-60",
+    "title": "Santander eleva Petrobras (PETR4) para compra e vê preço-alvo de R$ 60",
+    "excerpt": "Santander eleva recomendação da Petrobras para compra e revisa preço-alvo de R$ 35 para R$ 60, projetando dividend yield de cerca de 10% em 2026.",
+    "paragraphs": [
+      "O Santander elevou a recomendação para as ações da Petrobras de neutro para compra, revisando o preço-alvo da ação ordinária de R$ 35 para R$ 60, ao avaliar que a cotação atual do papel ainda não reflete todo o potencial de alta na produção de exploração e produção nem a tese de geração de caixa e retorno aos acionistas.",
+      "O banco projeta um dividend yield de cerca de 10% para a Petrobras em 2026, com a companhia priorizando a redução do endividamento — a estatal também aparece entre as ações mais presentes nas carteiras recomendadas de corretoras para setembro."
+    ],
+    "sourceLabel": "InfoMoney",
+    "sourceUrl": "https://www.infomoney.com.br/mercados/petr4-santander-eleva-petrobras-para-compra-e-ve-acao-sem-refletir-todo-potencial/",
+    "date": "2026-09-04T14:21:00.000Z"
+  },
+  {
     "slug": "dolar-cai-509-terceira-baixa-seguida",
     "title": "Dólar cai a R$ 5,09 e emenda terceira baixa seguida frente ao real",
     "excerpt": "O dólar caiu a R$ 5,09 nesta quinta-feira, na terceira sessão seguida de baixa, com o real se fortalecendo em meio à entrada de investimentos em ativos brasileiros.",
@@ -394,18 +442,6 @@
     "sourceLabel": "Forbes Brasil",
     "sourceUrl": "https://forbes.com.br/geral/2026/08/ibovespa-perde-folego-e-fecha-quase-estavel-apos-superar-176-mil-pontos/",
     "date": "2026-08-24T20:00:00Z"
-  },
-  {
-    "slug": "copom-corta-selic-quarta-vez-14",
-    "title": "Copom reduz Selic pela quarta reunião consecutiva; taxa vai a 14% ao ano",
-    "excerpt": "O Comitê de Política Monetária (Copom) reduziu a Selic em 0,25 ponto percentual pela quarta reunião seguida, levando a taxa básica de juros da economia brasileira a 14% ao ano.",
-    "paragraphs": [
-      "O Comitê de Política Monetária (Copom) do Banco Central reduziu a taxa Selic em 0,25 ponto percentual pela quarta reunião consecutiva, levando a taxa básica de juros da economia brasileira a 14% ao ano.",
-      "A decisão foi unânime entre os membros do colegiado, que segue avaliando o ritmo de desaceleração da inflação para calibrar os próximos passos da política monetária."
-    ],
-    "sourceLabel": "B3 Borainvestir",
-    "sourceUrl": "https://borainvestir.b3.com.br/noticias/copom-reduz-selic-pela-quarta-reuniao-consecutiva-taxa-vai-a-14-ao-ano/",
-    "date": "2026-08-20T18:00:00Z"
   },
   {
     "slug": "lula-divida-publica-superavit-fiscal",
