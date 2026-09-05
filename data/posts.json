@@ -1,5 +1,29 @@
 [
   {
+    "slug": "ibovespa-fecha-sexta-estavel-payroll-eua",
+    "title": "Ibovespa fecha sexta-feira (4/9) perto da estabilidade após payroll dos EUA",
+    "excerpt": "Ibovespa fecha sexta-feira (4/9) com leve queda de 0,02%, aos 185.147 pontos, após payroll dos EUA vir acima do esperado; dólar fecha a R$ 5,13.",
+    "paragraphs": [
+      "O Ibovespa fechou a sexta-feira (4/9) com leve queda de 0,02%, aos 185.147 pontos, após oscilar entre uma mínima de 183.252 e uma máxima de 186.545 pontos ao longo do pregão.",
+      "O resultado quase estável marcou uma pausa no movimento positivo dos dias anteriores, com os investidores digerindo o payroll americano de agosto — que mostrou criação de 162 mil vagas de emprego, acima do esperado — e pesquisas eleitorais sobre o cenário político brasileiro. O dólar comercial fechou o dia cotado a R$ 5,13, alta de 0,50%."
+    ],
+    "sourceLabel": "Rio Times Online",
+    "sourceUrl": "https://www.riotimesonline.com/brazil-markets-ibovespa-real-friday-september-4-2026/",
+    "date": "2026-09-05T14:20:00.000Z"
+  },
+  {
+    "slug": "bitcoin-cai-76-mil-mercado-cripto-recua",
+    "title": "Bitcoin cai para perto de US$ 76 mil e mercado cripto recua 1,3%",
+    "excerpt": "Bitcoin recua a perto de US$ 76,7 mil neste sábado (5/9), revertendo alta do dia anterior, enquanto mercado cripto total cai 1,3% para US$ 2,78 trilhões.",
+    "paragraphs": [
+      "O Bitcoin operava perto de US$ 76,7 mil neste sábado (5/9), queda de cerca de 1,6% em 24 horas, revertendo parte da alta acumulada na sessão anterior, quando a criptomoeda havia superado os US$ 81 mil.",
+      "O recuo acompanhou uma correção mais ampla do mercado cripto, que caiu 1,3% no total, para US$ 2,78 trilhões em valor de mercado — o Ethereum também cedeu, cotado perto de US$ 2.455, com a dominância do Bitcoin no mercado se mantendo perto de 57,6%."
+    ],
+    "sourceLabel": "CoinGabbar",
+    "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-bitcoin-btc-ethereum-eth-price-september-5",
+    "date": "2026-09-05T14:20:20.000Z"
+  },
+  {
     "slug": "ibovespa-cai-payroll-eua-acima-esperado",
     "title": "Ibovespa cai após payroll dos EUA vir muito acima do esperado",
     "excerpt": "O Ibovespa cai nesta sexta-feira (4/9) após payroll dos EUA vir muito acima do esperado, pressionando Vale, Petrobras e bancos na bolsa brasileira.",
@@ -418,18 +442,6 @@
     "sourceLabel": "InfoMoney",
     "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-25082026/",
     "date": "2026-08-25T20:00:00Z"
-  },
-  {
-    "slug": "ibovespa-21-08-forte-alta-lula-trump",
-    "title": "Ibovespa fecha com forte alta na sexta, com exterior, Lula e Trump; dólar cai a R$ 5,14",
-    "excerpt": "O Ibovespa encerrou a sessão de sexta-feira (21/8) em forte alta, beneficiado pelo cenário externo e por declarações de Lula e Trump. O dólar recuou a R$ 5,14.",
-    "paragraphs": [
-      "O Ibovespa encerrou a sessão de sexta-feira (21/8) em forte alta, beneficiado por um cenário externo favorável e por declarações do presidente Lula e do presidente americano Donald Trump.",
-      "O dólar recuou a R$ 5,14 no mesmo pregão, num movimento de maior apetite por risco entre os investidores locais e estrangeiros."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-21082026/",
-    "date": "2026-08-21T20:00:00Z"
   },
   {
     "slug": "ibovespa-sexta-alta-seguida-176-mil",
