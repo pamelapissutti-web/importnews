@@ -1,5 +1,17 @@
 [
   {
+    "slug": "bitcoin-volta-80-mil-etfs-3-dia-captacoes",
+    "title": "Bitcoin volta a se aproximar de US$ 80 mil, com ETFs em 3º dia de captações",
+    "excerpt": "Bitcoin volta a se aproximar de US$ 80 mil neste domingo (6/9), com ETFs à vista registrando o 3º dia seguido de captações líquidas positivas nos EUA.",
+    "paragraphs": [
+      "O Bitcoin operava perto de US$ 79,8 mil neste domingo (6/9), recuperando parte da queda registrada no fim de semana e se aproximando novamente da faixa dos US$ 80 mil monitorada por investidores.",
+      "O movimento ocorre em meio a um fluxo institucional ainda favorável: os ETFs à vista de Bitcoin negociados nos Estados Unidos registraram cerca de US$ 174,6 milhões em captações líquidas na sexta-feira (4/9), o terceiro dia seguido de entradas positivas. O mercado agora volta as atenções para o índice de preços ao consumidor dos EUA, previsto para 11 de setembro, cinco dias antes da próxima reunião de política monetária do Federal Reserve."
+    ],
+    "sourceLabel": "CoinStats",
+    "sourceUrl": "https://coinstats.app/ai/a/latest-news-for-bitcoin",
+    "date": "2026-09-06T14:20:00.000Z"
+  },
+  {
     "slug": "ibovespa-fecha-sexta-estavel-payroll-eua",
     "title": "Ibovespa fecha sexta-feira (4/9) perto da estabilidade após payroll dos EUA",
     "excerpt": "Ibovespa fecha sexta-feira (4/9) com leve queda de 0,02%, aos 185.147 pontos, após payroll dos EUA vir acima do esperado; dólar fecha a R$ 5,13.",
@@ -538,30 +550,6 @@
     "sourceLabel": "Suno Notícias",
     "sourceUrl": "https://www.suno.com.br/noticias/ibovespa-hoje-26-agosto-2026-ipca15-pce-mt/",
     "date": "2026-08-26T20:30:00Z"
-  },
-  {
-    "slug": "banco-central-leiloes-dolar-estabilidade",
-    "title": "Banco Central realiza leilões de venda de dólares para conter volatilidade cambial",
-    "excerpt": "O Banco Central tem realizado leilões de venda de dólares e outras operações de mercado para gerenciar a estabilidade da taxa de câmbio em meio à volatilidade recente.",
-    "paragraphs": [
-      "O Banco Central tem realizado leilões de venda de dólares e outras operações de mercado aberto para gerenciar a estabilidade da taxa de câmbio.",
-      "As intervenções ocorrem em meio a um período de maior volatilidade cambial, influenciado tanto por fatores domésticos quanto pelo cenário de juros nos Estados Unidos."
-    ],
-    "sourceLabel": "Money Times",
-    "sourceUrl": "https://www.moneytimes.com.br/cotacao/usdbrl/",
-    "date": "2026-08-22T18:00:00Z"
-  },
-  {
-    "slug": "dolar-cotacao-usdbrl-referencia",
-    "title": "Dólar opera perto de R$ 5,16 na cotação comercial de referência",
-    "excerpt": "A cotação do dólar comercial frente ao real operava perto de R$ 5,16 nesta semana, com pequenas variações ao longo dos pregões diários.",
-    "paragraphs": [
-      "A cotação do dólar comercial frente ao real operava perto de R$ 5,16 nesta semana, segundo dados de mercado.",
-      "O par USD/BRL segue sendo monitorado de perto por investidores e importadores, dada a sensibilidade do câmbio às decisões de política monetária no Brasil e nos Estados Unidos."
-    ],
-    "sourceLabel": "Money Times",
-    "sourceUrl": "https://www.moneytimes.com.br/cotacao/usdbrl/",
-    "date": "2026-08-22T18:30:00Z"
   },
   {
     "slug": "warsh-primeiro-discurso-jackson-hole",
