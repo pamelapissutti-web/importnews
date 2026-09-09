@@ -1,5 +1,41 @@
 [
   {
+    "slug": "ibovespa-sobe-187-mil-maior-nivel-4-meses",
+    "title": "Ibovespa sobe 1,24% e atinge maior nível em quase 4 meses",
+    "excerpt": "Ibovespa fecha esta quarta-feira (9/9) em alta de 1,24%, aos 187.366 pontos, maior nível em quase quatro meses, com volta de estrangeiros à bolsa.",
+    "paragraphs": [
+      "O Ibovespa fechou esta quarta-feira (9/9) em alta de 1,24%, aos 187.366 pontos, atingindo o maior nível em quase quatro meses, após oscilar entre uma mínima de 185.207 e uma máxima de 189.487 pontos ao longo do pregão.",
+      "O movimento foi impulsionado pelo retorno de investidores estrangeiros à bolsa paulista e por novas pesquisas eleitorais que reforçaram o cenário de disputa equilibrada na corrida presidencial de outubro, mesmo com o petróleo ainda perto de US$ 100 o barril chamando a atenção do mercado internacional."
+    ],
+    "sourceLabel": "Forbes Brasil",
+    "sourceUrl": "https://forbes.com.br/forbes-money/2026/09/ibovespa-sobe-dolar-eleicao/",
+    "date": "2026-09-09T14:20:00.000Z"
+  },
+  {
+    "slug": "dolar-cai-508-menor-nivel-7-agosto",
+    "title": "Dólar cai a R$ 5,08, menor cotação desde 7 de agosto",
+    "excerpt": "Dólar fecha em queda de 0,79% nesta quarta-feira (9/9), cotado a R$ 5,08, menor nível desde 7 de agosto, com retorno de capital estrangeiro.",
+    "paragraphs": [
+      "O dólar comercial fechou esta quarta-feira (9/9) em queda de 0,79%, cotado a R$ 5,08 — a menor cotação desde 7 de agosto.",
+      "A queda da moeda americana acompanhou o retorno de capital estrangeiro para ativos brasileiros e pesquisas eleitorais mostrando uma disputa mais equilibrada para a Presidência, fatores que têm sustentado o apetite por risco no mercado local nas últimas semanas."
+    ],
+    "sourceLabel": "Forbes Brasil",
+    "sourceUrl": "https://forbes.com.br/forbes-money/2026/09/ibovespa-sobe-dolar-eleicao/",
+    "date": "2026-09-09T14:20:20.000Z"
+  },
+  {
+    "slug": "balanca-comercial-superavit-19-bi-setembro",
+    "title": "Balança comercial tem superávit de US$ 1,9 bi na 1ª semana de setembro",
+    "excerpt": "Balança comercial brasileira tem superávit de US$ 1,9 bi na 1ª semana de setembro, com exportações 31,7% maiores que no mesmo período de 2025.",
+    "paragraphs": [
+      "A balança comercial brasileira registrou superávit de US$ 1,906 bilhão na primeira semana de setembro, com exportações de US$ 7,298 bilhões e importações de US$ 5,392 bilhões, segundo dados divulgados nesta quarta-feira (9/9).",
+      "Na comparação com o mesmo período de 2025, as exportações cresceram 31,7%, com destaque para a indústria extrativa (+84,4%) e a indústria de transformação (+17,9%), enquanto o agronegócio avançou 15,7%."
+    ],
+    "sourceLabel": "ADVFN News",
+    "sourceUrl": "https://br.advfn.com/jornal/2026/09/brasil-balanca-comercial-registrou-superavit-de-us-1-9-bilhao-na-primeira-semana-de-setembro",
+    "date": "2026-09-09T14:20:40.000Z"
+  },
+  {
     "slug": "ibovespa-abre-alta-188-mil-petrobras-petroleo",
     "title": "Ibovespa abre em alta de 1,5% e passa dos 188 mil pontos com Petrobras",
     "excerpt": "Ibovespa abre em alta de 1,5% e passa dos 188 mil pontos nesta terça-feira (8/9), puxado por Petrobras com petróleo perto de US$ 100 o barril.",
@@ -480,18 +516,6 @@
     "date": "2026-08-26T20:00:00Z"
   },
   {
-    "slug": "ibovespa-25-08-quinta-alta-vale-bancos",
-    "title": "Ibovespa consegue 5ª alta seguida, puxado de novo por Vale e bancos; dólar desce a R$ 5,14",
-    "excerpt": "O Ibovespa emendou a quinta sessão consecutiva de alta na terça-feira (25/8), com destaque novamente para Vale e para o setor bancário. O dólar recuou a R$ 5,14 no mesmo pregão.",
-    "paragraphs": [
-      "O Ibovespa emendou a quinta sessão consecutiva de alta na terça-feira (25/8), com Vale e os grandes bancos puxando o índice mais uma vez.",
-      "O dólar acompanhou o otimismo e recuou a R$ 5,14 na mesma sessão, em mais um dia de apetite por ativos de risco no mercado brasileiro."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-25082026/",
-    "date": "2026-08-25T20:00:00Z"
-  },
-  {
     "slug": "lula-divida-publica-superavit-fiscal",
     "title": "Lula descarta preocupação com dívida pública e promete superávit fiscal neste ano",
     "excerpt": "O presidente Luiz Inácio Lula da Silva afirmou que a dívida pública do país não é motivo de preocupação e prometeu que haverá superávit fiscal ainda este ano.",
@@ -502,18 +526,6 @@
     "sourceLabel": "InfoMoney",
     "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28082026/",
     "date": "2026-08-27T18:00:00Z"
-  },
-  {
-    "slug": "ipca15-agosto-queda-040",
-    "title": "IPCA-15 de agosto cai 0,40%, com acumulado em 12 meses em 4,24%",
-    "excerpt": "O IPCA-15, prévia da inflação oficial, caiu 0,40% em agosto, com o índice acumulado em 12 meses recuando para 4,24%, sinal de alívio para a inflação brasileira.",
-    "paragraphs": [
-      "O IPCA-15, prévia da inflação oficial, caiu 0,40% em agosto, superando as expectativas de uma deflação menor no período.",
-      "Com o resultado, o índice acumulado em 12 meses recuou para 4,24%, um sinal de alívio para a trajetória da inflação brasileira em meio ao ciclo de cortes da Selic."
-    ],
-    "sourceLabel": "Suno Notícias",
-    "sourceUrl": "https://www.suno.com.br/noticias/ibovespa-hoje-26-agosto-2026-ipca15-pce-mt/",
-    "date": "2026-08-26T14:00:00Z"
   },
   {
     "slug": "pce-eua-acima-esperado-pressiona-juros",
@@ -586,30 +598,6 @@
     "sourceLabel": "InfoMoney",
     "sourceUrl": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28082026/",
     "date": "2026-08-28T16:00:00Z"
-  },
-  {
-    "slug": "bitcoin-etf-sete-dias-entradas-positivas",
-    "title": "ETFs de Bitcoin somam sétimo dia seguido de entradas positivas nos EUA",
-    "excerpt": "Os fundos negociados em bolsa (ETFs) de Bitcoin à vista nos Estados Unidos estenderam para sete dias sua sequência de entradas líquidas positivas, somando mais de US$ 314 milhões na última sessão.",
-    "paragraphs": [
-      "Os fundos negociados em bolsa (ETFs) de Bitcoin à vista nos Estados Unidos estenderam para sete dias de negociação sua sequência de entradas líquidas positivas.",
-      "Na última sessão do período, os fundos atraíram US$ 314,37 milhões em entradas líquidas, reforçando o apetite institucional pelo ativo digital."
-    ],
-    "sourceLabel": "Cointelegraph Brasil",
-    "sourceUrl": "https://cointelegraph.com.br/news/bitcoin-etf-august-inflows-surge-past-3-billion",
-    "date": "2026-08-25T18:00:00Z"
-  },
-  {
-    "slug": "bitcoin-etf-agosto-3-bilhoes",
-    "title": "Entradas em ETFs de Bitcoin somam US$ 3,03 bilhões em agosto",
-    "excerpt": "As entradas líquidas em ETFs de Bitcoin à vista nos Estados Unidos somaram US$ 3,03 bilhões em agosto, ficando US$ 390 milhões abaixo do recorde de outubro de 2025.",
-    "paragraphs": [
-      "As entradas líquidas em ETFs de Bitcoin à vista nos Estados Unidos somaram US$ 3,03 bilhões ao longo de agosto de 2026.",
-      "O total ficou US$ 390 milhões abaixo do recorde histórico registrado em outubro de 2025, mas ainda assim reforça o apetite institucional consistente pelo ativo."
-    ],
-    "sourceLabel": "Cointelegraph Brasil",
-    "sourceUrl": "https://cointelegraph.com.br/news/bitcoin-etf-august-inflows-surge-past-3-billion",
-    "date": "2026-08-25T18:30:00Z"
   },
   {
     "slug": "bitcoin-dominancia-mercado-573",
