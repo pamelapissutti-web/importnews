@@ -1,5 +1,29 @@
 [
   {
+    "slug": "ibovespa-futuro-cai-crise-stf-inflacao-eua",
+    "title": "Ibovespa futuro cai com crise institucional e espera por inflação dos EUA",
+    "excerpt": "Ibovespa futuro cai nesta quinta-feira (10/9), com o mercado atento à crise entre STF e cúpula da PF e à espera da inflação ao consumidor dos EUA.",
+    "paragraphs": [
+      "O Ibovespa futuro operava em queda nesta quinta-feira (10/9), com o mercado em compasso de espera pela divulgação do índice de preços ao consumidor dos Estados Unidos e repercutindo uma crise institucional envolvendo o Supremo Tribunal Federal e a cúpula da Polícia Federal.",
+      "O impasse girou em torno do afastamento e da posterior reintegração do diretor-geral da PF, decisões tomadas por ministros diferentes do STF em dias seguidos — um cenário de instabilidade política que se soma à cautela global gerada pela alta do petróleo, de volta perto de US$ 100 o barril."
+    ],
+    "sourceLabel": "Brasil em Folhas",
+    "sourceUrl": "https://www.brasilemfolhas.com.br/2026/09/ibovespa-futuro-cai-com-inflacao-dos-eua-e-crise-no-stf/",
+    "date": "2026-09-10T14:20:00.000Z"
+  },
+  {
+    "slug": "dolar-sobe-513-oriente-medio-espera-cpi-eua",
+    "title": "Dólar sobe a R$ 5,13 com tensão no Oriente Médio e espera por dados dos EUA",
+    "excerpt": "Dólar sobe a R$ 5,13 nesta quinta-feira (10/9), acompanhando a alta global da moeda em meio à guerra no Oriente Médio e à espera do CPI dos EUA.",
+    "paragraphs": [
+      "O dólar comercial abriu esta quinta-feira (10/9) em alta, cotado a R$ 5,11, e ampliou os ganhos ao longo da manhã, subindo 0,38% e sendo negociado a R$ 5,131 na venda.",
+      "A valorização da moeda americana acompanhou o exterior, com investidores atentos à guerra no Oriente Médio e à espera de novos dados de inflação nos Estados Unidos — o Boletim Focus do Banco Central projeta o dólar fechando o ano a R$ 5,50."
+    ],
+    "sourceLabel": "InfoMoney",
+    "sourceUrl": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-10092026/",
+    "date": "2026-09-10T14:20:20.000Z"
+  },
+  {
     "slug": "ibovespa-sobe-187-mil-maior-nivel-4-meses",
     "title": "Ibovespa sobe 1,24% e atinge maior nível em quase 4 meses",
     "excerpt": "Ibovespa fecha esta quarta-feira (9/9) em alta de 1,24%, aos 187.366 pontos, maior nível em quase quatro meses, com volta de estrangeiros à bolsa.",
@@ -504,18 +528,6 @@
     "date": "2026-08-27T20:00:00Z"
   },
   {
-    "slug": "ibovespa-26-08-estavel-ipca15-pce",
-    "title": "Ibovespa fica estável aos 174 mil pontos com IPCA-15 e PCE no radar",
-    "excerpt": "O Ibovespa praticamente não saiu do lugar na quarta-feira (26/8), dividido entre uma inflação mais favorável no Brasil e sinais de preços ainda pressionados nos Estados Unidos.",
-    "paragraphs": [
-      "O Ibovespa praticamente não saiu do lugar na quarta-feira (26/8), fechando estável aos 174,5 mil pontos, dividido entre uma inflação mais favorável no Brasil e sinais de preços ainda pressionados nos Estados Unidos.",
-      "O IPCA-15 de agosto caiu 0,40%, com o acumulado em 12 meses em 4,24%, enquanto o PCE americano veio acima do esperado, pressionando principalmente as ações mais sensíveis a juros."
-    ],
-    "sourceLabel": "Suno Notícias",
-    "sourceUrl": "https://www.suno.com.br/noticias/ibovespa-hoje-26-agosto-2026-ipca15-pce-mt/",
-    "date": "2026-08-26T20:00:00Z"
-  },
-  {
     "slug": "lula-divida-publica-superavit-fiscal",
     "title": "Lula descarta preocupação com dívida pública e promete superávit fiscal neste ano",
     "excerpt": "O presidente Luiz Inácio Lula da Silva afirmou que a dívida pública do país não é motivo de preocupação e prometeu que haverá superávit fiscal ainda este ano.",
@@ -526,18 +538,6 @@
     "sourceLabel": "InfoMoney",
     "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28082026/",
     "date": "2026-08-27T18:00:00Z"
-  },
-  {
-    "slug": "pce-eua-acima-esperado-pressiona-juros",
-    "title": "PCE dos EUA vem acima do esperado e pressiona curva de juros americana",
-    "excerpt": "O índice de preços PCE dos Estados Unidos veio acima do esperado em julho, levando a uma abertura da curva de juros americana e pressionando ativos de risco globalmente.",
-    "paragraphs": [
-      "O índice de preços PCE dos Estados Unidos, medida de inflação acompanhada de perto pelo Federal Reserve, veio acima do esperado em julho.",
-      "O dado levou a uma abertura da curva de juros americana, pressionando principalmente as ações mais sensíveis a taxas de juros no Brasil e no mundo."
-    ],
-    "sourceLabel": "Suno Notícias",
-    "sourceUrl": "https://www.suno.com.br/noticias/ibovespa-hoje-26-agosto-2026-ipca15-pce-mt/",
-    "date": "2026-08-26T15:00:00Z"
   },
   {
     "slug": "dolar-avanca-r520-fala-warsh-jackson-hole",
@@ -574,18 +574,6 @@
     "sourceLabel": "InfoMoney",
     "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27082026/",
     "date": "2026-08-27T20:30:00Z"
-  },
-  {
-    "slug": "dolar-alta-022-r51518-26-08",
-    "title": "Dólar fecha em alta de 0,22%, a R$ 5,1518, em meio a dados de inflação",
-    "excerpt": "O dólar à vista encerrou a sessão de quarta-feira em alta de 0,22%, cotado a R$ 5,1518, em um dia movimentado por dados de inflação no Brasil e nos Estados Unidos.",
-    "paragraphs": [
-      "O dólar à vista encerrou a sessão de quarta-feira (26/8) em alta de 0,22%, cotado a R$ 5,1518.",
-      "O movimento ocorreu em um dia movimentado por dados de inflação: o IPCA-15 veio mais favorável no Brasil, enquanto o PCE nos Estados Unidos surpreendeu para cima, gerando um resultado misto para o câmbio."
-    ],
-    "sourceLabel": "Suno Notícias",
-    "sourceUrl": "https://www.suno.com.br/noticias/ibovespa-hoje-26-agosto-2026-ipca15-pce-mt/",
-    "date": "2026-08-26T20:30:00Z"
   },
   {
     "slug": "warsh-primeiro-discurso-jackson-hole",
