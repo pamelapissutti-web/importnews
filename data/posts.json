@@ -1,5 +1,53 @@
 [
   {
+    "slug": "ipca-agosto-deflacao-032-mais-forte-esperado",
+    "title": "IPCA de agosto tem deflação de 0,32%, mais forte que o esperado",
+    "excerpt": "IPCA de agosto tem deflação de 0,32%, acima do esperado pelo mercado; inflação em 12 meses fica em 4,22%, com Copom se reúne dia 16.",
+    "paragraphs": [
+      "O IPCA de agosto registrou deflação de 0,32%, divulgado pelo IBGE nesta sexta-feira (11/9) — resultado mais intenso que a expectativa do mercado, de queda de 0,29%. No acumulado em 12 meses, a inflação ficou em 4,22%, abaixo da projeção de 4,27%.",
+      "Entre os grupos que puxaram a deflação estão Habitação (-1,87%), Transportes (-0,86%), Alimentação e bebidas (-0,34%) e Comunicação (-0,09%). O resultado é o último dado doméstico relevante antes da reunião do Copom, marcada para 16 de setembro, e reforça as apostas em um novo corte da Selic."
+    ],
+    "sourceLabel": "InfoMoney",
+    "sourceUrl": "https://www.infomoney.com.br/economia/ipca-inflacao-agosto-2026-dados-ibge/",
+    "date": "2026-09-11T14:20:00.000Z"
+  },
+  {
+    "slug": "ibovespa-recua-ipca-cautela-cpi-eua",
+    "title": "Ibovespa recua com IPCA deflacionário e cautela por CPI dos EUA",
+    "excerpt": "Ibovespa cai nesta sexta-feira (11/9), aos 187.440 pontos, com IPCA deflacionário no Brasil e cautela antes do CPI dos Estados Unidos.",
+    "paragraphs": [
+      "O Ibovespa operava em queda de cerca de 0,44% nesta sexta-feira (11/9), aos 187.440 pontos, revertendo a leve alta do início do pregão, em meio à repercussão do IPCA de agosto e à cautela antes da divulgação do índice de preços ao consumidor dos Estados Unidos.",
+      "Embora a deflação doméstica reforce as apostas em um novo corte da Selic pelo Copom na próxima semana, o mercado também monitorava o cenário eleitoral e o CPI americano, capaz de alterar as apostas para os juros do Federal Reserve, que se reúne nos dias 15 e 16 de setembro."
+    ],
+    "sourceLabel": "SpaceMoney",
+    "sourceUrl": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-cai-ipca-deflacao-apostas-fed",
+    "date": "2026-09-11T14:20:20.000Z"
+  },
+  {
+    "slug": "dolar-cai-507-copom-selic",
+    "title": "Dólar cai a R$ 5,07 com deflação do IPCA e Selic no radar",
+    "excerpt": "Dólar recua a R$ 5,07 nesta sexta-feira (11/9) após IPCA de agosto vir deflacionário, reforçando aposta em corte da Selic pelo Copom.",
+    "paragraphs": [
+      "O dólar comercial recuava a R$ 5,07 na manhã desta sexta-feira (11/9), revertendo a alta do dia anterior, após o IBGE confirmar deflação de 0,32% no IPCA de agosto.",
+      "O resultado reforçou as apostas em um novo corte da Selic pelo Copom na reunião de 16 de setembro, favorecendo o apetite por ativos brasileiros mesmo com o mercado global também de olho no índice de preços ao consumidor dos Estados Unidos, divulgado ainda nesta sexta-feira."
+    ],
+    "sourceLabel": "Rio Times Online",
+    "sourceUrl": "https://www.riotimesonline.com/brazils-financial-morning-call-for-friday-september-11-2026/",
+    "date": "2026-09-11T14:20:40.000Z"
+  },
+  {
+    "slug": "bitcoin-cai-77-mil-cpi-quente-eua",
+    "title": "Bitcoin cai a US$ 77 mil com CPI quente dos EUA e apostas em alta de juros",
+    "excerpt": "Bitcoin cai para US$ 77 mil nesta sexta-feira (11/9) após CPI dos EUA vir mais quente que o esperado, elevando aposta de alta de juros do Fed.",
+    "paragraphs": [
+      "O Bitcoin recuou para a faixa dos US$ 77 mil nesta sexta-feira (11/9), com baixa de 1,3% no dia e perda acumulada de 5% na semana, em meio à divulgação do índice de preços ao consumidor (CPI) dos Estados Unidos referente a agosto.",
+      "O núcleo do CPI subiu 0,3% em agosto, acima do esperado, elevando para cerca de 70% a probabilidade precificada pelo mercado de uma alta de juros pelo Federal Reserve na reunião de 15 e 16 de setembro — um cenário que levou investidores a reduzir exposição em ativos de risco como as criptomoedas."
+    ],
+    "sourceLabel": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
+    "date": "2026-09-11T14:21:00.000Z"
+  },
+  {
     "slug": "ibovespa-futuro-cai-crise-stf-inflacao-eua",
     "title": "Ibovespa futuro cai com crise institucional e espera por inflação dos EUA",
     "excerpt": "Ibovespa futuro cai nesta quinta-feira (10/9), com o mercado atento à crise entre STF e cúpula da PF e à espera da inflação ao consumidor dos EUA.",
@@ -516,30 +564,6 @@
     "date": "2026-08-28T16:58:31Z"
   },
   {
-    "slug": "ibovespa-27-08-forte-alta-lula-trump",
-    "title": "Ibovespa fecha com forte alta nesta quinta, com exterior, Lula e Trump; dólar cai a R$ 5,14",
-    "excerpt": "O Ibovespa fechou em forte alta na quinta-feira (27/8), impulsionado pelo cenário externo favorável e por declarações do presidente Lula e do presidente americano Donald Trump. O dólar recuou a R$ 5,14 no mesmo pregão.",
-    "paragraphs": [
-      "O Ibovespa fechou em forte alta na quinta-feira (27/8), em um pregão marcado por um cenário externo favorável e por repercussões de declarações do presidente Lula e do presidente americano Donald Trump.",
-      "O dólar acompanhou o movimento positivo e recuou a R$ 5,14 na mesma sessão, refletindo a melhora do apetite por risco entre os investidores."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27082026/",
-    "date": "2026-08-27T20:00:00Z"
-  },
-  {
-    "slug": "lula-divida-publica-superavit-fiscal",
-    "title": "Lula descarta preocupação com dívida pública e promete superávit fiscal neste ano",
-    "excerpt": "O presidente Luiz Inácio Lula da Silva afirmou que a dívida pública do país não é motivo de preocupação e prometeu que haverá superávit fiscal ainda este ano.",
-    "paragraphs": [
-      "O presidente Luiz Inácio Lula da Silva afirmou que a dívida pública do país não é motivo de preocupação e prometeu que haverá superávit fiscal ainda este ano.",
-      "Questionado sobre o avanço da dívida pública para mais de 80% do PIB, Lula disse que o crescimento econômico do país deve ajudar a reduzir a proporção nos próximos anos."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28082026/",
-    "date": "2026-08-27T18:00:00Z"
-  },
-  {
     "slug": "dolar-avanca-r520-fala-warsh-jackson-hole",
     "title": "Dólar avança a R$ 5,20 após discurso de Kevin Warsh em Jackson Hole",
     "excerpt": "O dólar à vista operou em alta nesta sexta-feira, chegando a R$ 5,209 na venda, enquanto os investidores digeriam os comentários do presidente do Federal Reserve, Kevin Warsh, em Jackson Hole.",
@@ -564,18 +588,6 @@
     "date": "2026-08-28T15:30:00Z"
   },
   {
-    "slug": "dolar-r514-ibovespa-forte-alta-27-08",
-    "title": "Dólar recua a R$ 5,14 em dia de forte alta do Ibovespa",
-    "excerpt": "O dólar recuou a R$ 5,14 nesta quinta-feira, em um pregão de maior apetite por risco que também levou o Ibovespa a fechar em forte alta.",
-    "paragraphs": [
-      "O dólar recuou a R$ 5,14 nesta quinta-feira (27/8), em um pregão de maior apetite por risco entre os investidores.",
-      "O movimento acompanhou a forte alta do Ibovespa no mesmo dia, impulsionada por um cenário externo mais favorável."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27082026/",
-    "date": "2026-08-27T20:30:00Z"
-  },
-  {
     "slug": "warsh-primeiro-discurso-jackson-hole",
     "title": "Warsh faz primeiro grande discurso como chair do Fed no simpósio de Jackson Hole",
     "excerpt": "O presidente do Federal Reserve, Kevin Warsh, fez seu primeiro grande discurso desde que assumiu o comando do banco central americano em maio, no tradicional simpósio de Jackson Hole.",
@@ -586,17 +598,5 @@
     "sourceLabel": "InfoMoney",
     "sourceUrl": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28082026/",
     "date": "2026-08-28T16:00:00Z"
-  },
-  {
-    "slug": "bitcoin-dominancia-mercado-573",
-    "title": "Bitcoin mantém dominância de 57,3% do mercado cripto, aponta levantamento",
-    "excerpt": "O Bitcoin responde por 57,3% da capitalização total do mercado de criptomoedas, enquanto o Ethereum representa 10,8%, segundo levantamento recente do setor.",
-    "paragraphs": [
-      "O Bitcoin responde por 57,3% da capitalização total do mercado de criptomoedas, mantendo a liderança folgada entre os ativos digitais.",
-      "O Ethereum aparece na sequência, com 10,8% de participação, em um mercado que movimentou cerca de US$ 99,3 bilhões em volume de negociação nas últimas 24 horas do levantamento."
-    ],
-    "sourceLabel": "CoinGecko",
-    "sourceUrl": "https://www.coingecko.com/",
-    "date": "2026-08-27T18:00:00Z"
   }
 ]
