@@ -1,5 +1,17 @@
 [
   {
+    "slug": "ethereum-sobe-short-squeeze-311-milhoes",
+    "title": "Ethereum sobe com short squeeze de mais de US$ 300 milhões",
+    "excerpt": "Ethereum sobe cerca de 2,16% neste sábado (12/9), perto de US$ 2.520, após short squeeze provocar mais de US$ 311 milhões em liquidações forçadas.",
+    "paragraphs": [
+      "O Ethereum subia cerca de 2,16% neste sábado (12/9), negociado perto de US$ 2.520, em meio a um short squeeze que provocou mais de US$ 311 milhões em liquidações forçadas de posições vendidas nas principais corretoras.",
+      "As liquidações de posições vendidas representaram quase 60% do total de posições fechadas à força no mercado cripto no dia, cerca de 1,5 vez mais que as posições compradas liquidadas — um padrão clássico de squeeze, em que a pressão inicial de venda força a recompra de moedas emprestadas e amplifica a alta. O movimento ocorreu enquanto o Bitcoin recuava de volta para perto de US$ 77 mil, devolvendo parte dos ganhos da sessão anterior."
+    ],
+    "sourceLabel": "COINOTAG",
+    "sourceUrl": "https://en.coinotag.com/ethereum-shorts-lead-589m-perpetual-liquidation-wave",
+    "date": "2026-09-12T14:20:00.000Z"
+  },
+  {
     "slug": "ipca-agosto-deflacao-032-mais-forte-esperado",
     "title": "IPCA de agosto tem deflação de 0,32%, mais forte que o esperado",
     "excerpt": "IPCA de agosto tem deflação de 0,32%, acima do esperado pelo mercado; inflação em 12 meses fica em 4,22%, com Copom se reúne dia 16.",
@@ -468,30 +480,6 @@
     "date": "2026-08-30T15:00:00Z"
   },
   {
-    "slug": "ibovespa-projecao-2026-179-mil-pontos",
-    "title": "Analistas revisam projeção do Ibovespa para 2026 a 179 mil pontos, ante 195 mil em maio",
-    "excerpt": "Uma pesquisa com analistas de mercado revisou para baixo a projeção do Ibovespa para o fim de 2026, agora em 179 mil pontos, ante os 195 mil pontos estimados em maio.",
-    "paragraphs": [
-      "Uma pesquisa com analistas de mercado, realizada entre 12 e 26 de agosto, revisou para baixo a projeção do Ibovespa para o fim de 2026, agora em 179 mil pontos, ante os 195 mil pontos estimados em maio.",
-      "As preocupações fiscais no Brasil foram apontadas como o principal fator por trás da revisão, reduzindo o otimismo do mercado com o desempenho da bolsa brasileira até o fim do ano."
-    ],
-    "sourceLabel": "Investing.com",
-    "sourceUrl": "https://br.investing.com/",
-    "date": "2026-08-29T14:00:00Z"
-  },
-  {
-    "slug": "desemprego-53-credito-145-trilhao",
-    "title": "Desemprego cai a 5,3% no trimestre até julho, e crédito bancário soma R$ 1,45 trilhão",
-    "excerpt": "A taxa de desemprego no Brasil ficou em 5,3% no trimestre encerrado em julho, enquanto a carteira de crédito do sistema financeiro fechou o segundo trimestre de 2026 em R$ 1,45 trilhão.",
-    "paragraphs": [
-      "A taxa de desemprego no Brasil ficou em 5,3% no trimestre encerrado em julho, mantendo a trajetória de estabilidade do mercado de trabalho observada nos últimos meses.",
-      "No mesmo período, a carteira de crédito do sistema financeiro fechou o segundo trimestre de 2026 em R$ 1,45 trilhão, reforçando o papel do crédito como termômetro da atividade econômica no país."
-    ],
-    "sourceLabel": "Investing.com",
-    "sourceUrl": "https://br.investing.com/",
-    "date": "2026-08-29T14:15:00Z"
-  },
-  {
     "slug": "petrobras-sobe-3-ibovespa-175-mil",
     "title": "Petrobras sobe mais de 3% e leva Ibovespa de volta aos 175 mil pontos",
     "excerpt": "As ações da Petrobras subiram mais de 3%, acompanhando a cotação internacional do petróleo, e ajudaram o Ibovespa a voltar a fechar acima dos 175 mil pontos.",
@@ -504,18 +492,6 @@
     "date": "2026-08-29T19:00:00Z"
   },
   {
-    "slug": "bitcoin-cai-378-ethereum-recua",
-    "title": "Bitcoin cai 3,8% e Ethereum recua 3%, com mercado cripto perdendo força",
-    "excerpt": "O Bitcoin caiu 3,8% nas últimas 24 horas, cotado a US$ 77.803, enquanto o Ethereum recuou 3%, em um dia de perdas generalizadas no mercado de criptomoedas.",
-    "paragraphs": [
-      "O Bitcoin caiu 3,8% nas últimas 24 horas, cotado a US$ 77.803,54, com volume de negociação de US$ 20,07 bilhões.",
-      "O Ethereum acompanhou o movimento e recuou 3%, para US$ 2.444,05, enquanto a capitalização total do mercado de criptomoedas caiu 2,9%, para US$ 2,72 trilhões."
-    ],
-    "sourceLabel": "CoinGabbar",
-    "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-29-august-bitcoin-ethereum-defi-market-down",
-    "date": "2026-08-29T13:00:00Z"
-  },
-  {
     "slug": "copom-selic-1325-fim-2026",
     "title": "Projeções indicam Copom encerrando 2026 com Selic em 13,25%",
     "excerpt": "Projeções de mercado indicam que o Copom deve manter o ciclo de ajuste da Selic, encerrando 2026 com a taxa em 13,25%, em meio à desaceleração gradual da economia.",
@@ -526,77 +502,5 @@
     "sourceLabel": "Investing.com",
     "sourceUrl": "https://br.investing.com/",
     "date": "2026-08-29T14:30:00Z"
-  },
-  {
-    "slug": "ibovespa-warsh-jackson-hole",
-    "title": "Ibovespa oscila nesta sexta enquanto mercado aguarda discurso de Warsh em Jackson Hole",
-    "excerpt": "O Ibovespa opera com pouca variação nesta sexta-feira (28/8), tendo aberto o pregão perto dos 176,1 mil pontos. O dólar comercial avança a R$ 5,19 e os juros futuros também sobem, em um dia marcado pela cautela.",
-    "paragraphs": [
-      "O Ibovespa opera com pouca variação nesta sexta-feira (28/8), tendo aberto o pregão perto dos 176,1 mil pontos. O dólar comercial avança a R$ 5,19 e os juros futuros também sobem, em um dia marcado pela cautela.",
-      "O principal fator de atenção dos investidores é o discurso do presidente do Federal Reserve, Kevin Warsh, em Jackson Hole. O mercado busca sinais sobre os próximos passos da política monetária americana, o que também explica a falta de direção única nos futuros das bolsas dos EUA hoje."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28082026/",
-    "date": "2026-08-28T16:58:30Z"
-  },
-  {
-    "slug": "divida-publica-81-9-pib",
-    "title": "Dívida pública brasileira sobe para 81,9% do PIB e volta ao centro do debate",
-    "excerpt": "A dívida bruta do governo brasileiro aumentou mais de 10 pontos percentuais desde o início do atual mandato do presidente Lula, em 2023, chegando a 81,9% do PIB.",
-    "paragraphs": [
-      "A dívida bruta do governo brasileiro aumentou mais de 10 pontos percentuais desde o início do atual mandato do presidente Lula, em 2023, chegando a 81,9% do PIB.",
-      "O tema ganhou ainda mais destaque no cenário político-econômico local nos últimos dias, na mesma semana em que o Copom sinaliza começar a enxergar espaço para iniciar cortes na taxa Selic."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/ultimas-noticias/",
-    "date": "2026-08-28T16:58:31Z"
-  },
-  {
-    "slug": "nvidia-hugging-face",
-    "title": "Nvidia dispara 7% e fecha compra da Hugging Face por US$ 12,9 bilhões",
-    "excerpt": "As ações da Nvidia subiram cerca de 7% depois de a empresa divulgar resultados trimestrais considerados excepcionais pelo mercado, reforçando a confiança dos investidores no ciclo de investimentos em inteligência artificial.",
-    "paragraphs": [
-      "As ações da Nvidia subiram cerca de 7% depois de a empresa divulgar resultados trimestrais considerados excepcionais pelo mercado, reforçando a confiança dos investidores no ciclo de investimentos em inteligência artificial.",
-      "A companhia também confirmou a aquisição da Hugging Face por US$ 12,9 bilhões. Em contrapartida, as ações da PayPal caíram 16% no pré-mercado após Advent e Stripe desistirem da disputa pelo controle da empresa."
-    ],
-    "sourceLabel": "CNN Business",
-    "sourceUrl": "https://www.cnn.com/business",
-    "date": "2026-08-28T16:58:31Z"
-  },
-  {
-    "slug": "dolar-avanca-r520-fala-warsh-jackson-hole",
-    "title": "Dólar avança a R$ 5,20 após discurso de Kevin Warsh em Jackson Hole",
-    "excerpt": "O dólar à vista operou em alta nesta sexta-feira, chegando a R$ 5,209 na venda, enquanto os investidores digeriam os comentários do presidente do Federal Reserve, Kevin Warsh, em Jackson Hole.",
-    "paragraphs": [
-      "O dólar à vista operou em alta nesta sexta-feira (28/8), chegando a R$ 5,209 na venda, enquanto os investidores digeriam os comentários do presidente do Federal Reserve, Kevin Warsh, no simpósio de Jackson Hole.",
-      "Em seu primeiro grande discurso desde que assumiu o comando do banco central americano, Warsh afirmou que a inflação não está desacelerando de forma significativa, o que reduziu as apostas em cortes rápidos de juros nos EUA."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28082026/",
-    "date": "2026-08-28T15:00:00Z"
-  },
-  {
-    "slug": "diferencial-juros-selic-fed-atrai-dolares",
-    "title": "Diferencial entre Selic e juros dos EUA volta a ficar menos favorável ao real",
-    "excerpt": "Com a Selic em 14% no Brasil e os juros americanos na faixa de 3,50% a 3,75%, o diferencial de juros — historicamente favorável à entrada de dólares no país — passa por um momento de maior incerteza.",
-    "paragraphs": [
-      "Com a Selic em 14% ao ano no Brasil e os juros americanos na faixa de 3,50% a 3,75%, o diferencial de juros entre os dois países segue relativamente alto.",
-      "Esse diferencial, historicamente apontado como fator de atração de dólares para o Brasil, passa por um momento de maior incerteza diante da possibilidade de alta de juros nos EUA e de novos cortes da Selic por aqui."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28082026/",
-    "date": "2026-08-28T15:30:00Z"
-  },
-  {
-    "slug": "warsh-primeiro-discurso-jackson-hole",
-    "title": "Warsh faz primeiro grande discurso como chair do Fed no simpósio de Jackson Hole",
-    "excerpt": "O presidente do Federal Reserve, Kevin Warsh, fez seu primeiro grande discurso desde que assumiu o comando do banco central americano em maio, no tradicional simpósio de Jackson Hole.",
-    "paragraphs": [
-      "O presidente do Federal Reserve, Kevin Warsh, fez seu primeiro grande discurso desde que assumiu o comando do banco central americano em maio, no tradicional Simpósio Anual de Política Monetária de Jackson Hole.",
-      "O mercado de câmbio repercutiu as falas na sexta-feira (28/8), buscando calibrar expectativas para a trajetória dos juros nos Estados Unidos e seus efeitos sobre o dólar frente ao real."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28082026/",
-    "date": "2026-08-28T16:00:00Z"
   }
 ]
