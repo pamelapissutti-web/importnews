@@ -1,5 +1,17 @@
 [
   {
+    "slug": "semana-super-quarta-selic-fed-16-setembro",
+    "title": "Semana da Super Quarta: mercado espera corte da Selic e Fed estável",
+    "excerpt": "Semana tem Super Quarta em 16/9: mercado vê 95% de chance de corte de 0,25pp na Selic, para 13,75%, enquanto Fed deve manter juros nos EUA.",
+    "paragraphs": [
+      "A semana que começa nesta segunda-feira (14/9) tem como principal evento a \"Super Quarta\", em 16 de setembro, quando Copom e Federal Reserve anunciam suas decisões de juros no mesmo dia. O mercado atribui cerca de 95% de probabilidade a um corte de 0,25 ponto percentual na Selic, que iria de 14% para 13,75% ao ano.",
+      "Já nos Estados Unidos, a expectativa é de que o Fed mantenha a taxa básica na faixa entre 3,50% e 3,75%, sem alterações. As decisões vêm horas depois do IPCA de agosto ter surpreendido com deflação de 0,32%, o que reforça a trajetória de flexibilização monetária no Brasil, enquanto o cenário nos EUA segue mais cauteloso após o CPI recente vir acima do esperado."
+    ],
+    "sourceLabel": "O Especialista (Safra)",
+    "sourceUrl": "https://oespecialista.safra.com.br/superquarta-safra-projeta-corte-selic-manutencao-juros-eua/",
+    "date": "2026-09-13T14:20:00.000Z"
+  },
+  {
     "slug": "ethereum-sobe-short-squeeze-311-milhoes",
     "title": "Ethereum sobe com short squeeze de mais de US$ 300 milhões",
     "excerpt": "Ethereum sobe cerca de 2,16% neste sábado (12/9), perto de US$ 2.520, após short squeeze provocar mais de US$ 311 milhões em liquidações forçadas.",
@@ -478,29 +490,5 @@
     "sourceLabel": "Infobae",
     "sourceUrl": "https://www.infobae.com/tecno/2026/08/30/asi-cotizan-las-principales-criptomonedas-del-mundo-digital-este-domingo-30-de-agosto/",
     "date": "2026-08-30T15:00:00Z"
-  },
-  {
-    "slug": "petrobras-sobe-3-ibovespa-175-mil",
-    "title": "Petrobras sobe mais de 3% e leva Ibovespa de volta aos 175 mil pontos",
-    "excerpt": "As ações da Petrobras subiram mais de 3%, acompanhando a cotação internacional do petróleo, e ajudaram o Ibovespa a voltar a fechar acima dos 175 mil pontos.",
-    "paragraphs": [
-      "As ações da Petrobras subiram mais de 3% em pregão recente, acompanhando a alta da cotação internacional do petróleo.",
-      "O desempenho da estatal foi o principal responsável por levar o Ibovespa de volta a fechar acima dos 175 mil pontos, em um dia também marcado por bom humor no exterior."
-    ],
-    "sourceLabel": "B3 Borainvestir",
-    "sourceUrl": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-sobe-031-e-volta-aos-175-mil-pontos-puxado-por-bom-humor-externo-e-petrobras/",
-    "date": "2026-08-29T19:00:00Z"
-  },
-  {
-    "slug": "copom-selic-1325-fim-2026",
-    "title": "Projeções indicam Copom encerrando 2026 com Selic em 13,25%",
-    "excerpt": "Projeções de mercado indicam que o Copom deve manter o ciclo de ajuste da Selic, encerrando 2026 com a taxa em 13,25%, em meio à desaceleração gradual da economia.",
-    "paragraphs": [
-      "Projeções de mercado indicam que o Copom deve manter o ciclo de ajuste da taxa Selic, encerrando 2026 com a taxa em 13,25% ao ano.",
-      "As estimativas também apontam o PIB brasileiro crescendo 1,8% em 2026, um ritmo de desaceleração gradual que abre espaço para a continuidade dos cortes de juros ao longo do ano."
-    ],
-    "sourceLabel": "Investing.com",
-    "sourceUrl": "https://br.investing.com/",
-    "date": "2026-08-29T14:30:00Z"
   }
 ]
