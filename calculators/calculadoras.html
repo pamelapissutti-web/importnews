@@ -1254,8 +1254,8 @@ body {
         <div class="table-wrap" id="tabela-inf-wrap" style="margin-top:12px"></div>
       </details>
       <div class="nota">
-        ⚠ O cálculo aplica a variação acumulada do índice escolhido entre o mês seguinte à data inicial e a data
-        final informada, seguindo a metodologia usual de atualização monetária. Os dados são obtidos em tempo real
+        ⚠ O cálculo aplica a variação acumulada do índice escolhido entre o mês inicial (inclusive) e o mês final
+        informado, mesma metodologia usada pela Calculadora do Cidadão do Banco Central. Os dados são obtidos em tempo real
         do Sistema Gerenciador de Séries Temporais (SGS) do Banco Central do Brasil. Valores meramente informativos,
         sem validade como correção oficial de contratos ou processos judiciais.
       </div>
@@ -2500,32 +2500,32 @@ async function calcInflacao() {
   btn.textContent = 'Calculando...';
 
   try {
-    const pontosMensais = [];
+    // Metodologia oficial do BCB (Calculadora do Cidadão): o fator de atualização é a
+    // razão entre o índice do mês final e o índice do mês IMEDIATAMENTE ANTERIOR ao
+    // inicial — ou seja, a variação do próprio mês inicial entra na correção.
+    const dataInicialParam = infToBcbDate(anoIni, mesIni);
+    const dataFinalParam = infToBcbDate(anoFim, mesFim);
 
-    if (fim.getTime() !== inicio.getTime()) {
-      const inicioSerie = infAddMeses(anoIni, mesIni, 1);
-      const dataInicialParam = infToBcbDate(inicioSerie.ano, inicioSerie.mes);
-      const dataFinalParam = infToBcbDate(anoFim, mesFim);
+    const url = `https://api.bcb.gov.br/dados/serie/bcdata.sgs.${codigoIndice}/dados?formato=json&dataInicial=${dataInicialParam}&dataFinal=${dataFinalParam}`;
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error('http-error');
 
-      const url = `https://api.bcb.gov.br/dados/serie/bcdata.sgs.${codigoIndice}/dados?formato=json&dataInicial=${dataInicialParam}&dataFinal=${dataFinalParam}`;
-      const resp = await fetch(url);
-      if (!resp.ok) throw new Error('http-error');
-
-      const dados = await resp.json();
-      if (!Array.isArray(dados) || dados.length === 0) {
-        infShowErro('Ainda não há dados publicados para o período final selecionado. Tente um mês anterior.');
-        return;
-      }
-
-      dados.forEach(ponto => {
-        const [d, m, y] = ponto.data.split('/').map(Number);
-        const taxa = parseFloat(String(ponto.valor).replace(',', '.'));
-        if (!isNaN(taxa)) pontosMensais.push({ ano: y, mes: m - 1, taxa });
-      });
+    const dados = await resp.json();
+    if (!Array.isArray(dados) || dados.length === 0) {
+      infShowErro('Ainda não há dados publicados para o período informado. Tente um mês anterior.');
+      return;
     }
 
+    const pontosMensais = [];
+    dados.forEach(ponto => {
+      const [d, m, y] = ponto.data.split('/').map(Number);
+      const taxa = parseFloat(String(ponto.valor).replace(',', '.'));
+      if (!isNaN(taxa)) pontosMensais.push({ ano: y, mes: m - 1, taxa });
+    });
+
     let fator = 1;
-    const labels = [infMesLabel(anoIni, mesIni)];
+    const mesBase = infAddMeses(anoIni, mesIni, -1);
+    const labels = [infMesLabel(mesBase.ano, mesBase.mes)];
     const serieValores = [valor];
     const serieTaxas = [null];
 
@@ -2545,7 +2545,7 @@ async function calcInflacao() {
       <div class="res-card destaque">
         <div class="res-label">Valor corrigido</div>
         <div class="res-val">${fmt(valorCorrigido)}</div>
-        <div class="res-sub">${labels[0]} → ${labels[labels.length - 1]}</div>
+        <div class="res-sub">${infMesLabel(anoIni, mesIni)} → ${infMesLabel(anoFim, mesFim)}</div>
       </div>
       <div class="res-card">
         <div class="res-label">Inflação acumulada</div>
