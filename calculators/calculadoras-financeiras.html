@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Calculadoras Financeiras Gratuitas: Juros Compostos, Independência Financeira, Financiamento, Casa Própria e Inflação | Import Money</title>
+<meta name="description" content="5 calculadoras financeiras gratuitas e sem cadastro: juros compostos, independência financeira, financiamento SAC vs PRICE, planejador de compra da casa própria e correção pela inflação (IPCA, IGP-M e mais). Simule agora."/>
+<meta name="keywords" content="calculadora juros compostos, calculadora independência financeira, calculadora SAC PRICE, simulador financiamento imobiliário, planejador casa própria, calculadora de inflação, corrigir valor pelo IPCA, quanto preciso poupar por mês"/>
+<link rel="canonical" href="https://www.importmoney.com/calculadoras-financeiras"/>
+
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Calculadoras Financeiras Gratuitas | Import Money"/>
+<meta property="og:description" content="Simule juros compostos, independência financeira, financiamento imobiliário (SAC/PRICE), a compra da sua casa própria e correção pela inflação. Grátis, sem cadastro."/>
+<meta property="og:url" content="https://www.importmoney.com/calculadoras-financeiras"/>
+<meta property="og:locale" content="pt_BR"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Calculadoras Financeiras Gratuitas | Import Money"/>
+<meta name="twitter:description" content="Simule juros compostos, independência financeira, financiamento imobiliário, a compra da casa própria e correção pela inflação. Grátis, sem cadastro."/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Calculadoras Financeiras Import Money",
+  "url": "https://www.importmoney.com/calculadoras-financeiras",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BRL" },
+  "description": "Calculadoras gratuitas de juros compostos, independência financeira, financiamento imobiliário (SAC e PRICE), planejamento da compra da casa própria e correção de valores pela inflação.",
+  "featureList": [
+    "Calculadora de juros compostos com aportes mensais",
+    "Simulador de independência financeira",
+    "Comparador de financiamento SAC vs PRICE",
+    "Planejador de compra da casa própria",
+    "Calculadora de inflação (IPCA, IGP-M, INPC e mais, com dados do Banco Central)"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O que são juros compostos e como calcular?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Juros compostos são juros que incidem sobre o valor original mais os juros já acumulados em períodos anteriores — o famoso 'juros sobre juros'. Para calcular, é preciso saber o valor inicial, o aporte mensal, a taxa de rendimento e o período. A calculadora de Juros Compostos do Import Money faz essa conta automaticamente e mostra a evolução mês a mês em gráfico." }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual a diferença entre SAC e PRICE no financiamento imobiliário?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No sistema PRICE, a parcela é fixa do início ao fim do financiamento. No sistema SAC, a amortização é constante e a parcela começa mais alta e vai diminuindo ao longo do tempo, o que costuma gerar menos juros totais pagos. A calculadora de Amortização compara os dois sistemas lado a lado, incluindo correção monetária e aportes extras." }
+    },
+    {
+      "@type": "Question",
+      "name": "Como saber se tenho entrada suficiente para comprar um imóvel?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A recomendação geral do mercado é ter pelo menos 20% do valor do imóvel como entrada, para conseguir melhores condições de financiamento. O Planejador da Casa Própria calcula quanto você vai ter guardado até a data da compra (considerando o que já tem e quanto consegue poupar por mês) e avisa se está acima ou abaixo desse mínimo." }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é independência financeira e quanto preciso poupar?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Independência financeira é o ponto em que a renda gerada pelo seu patrimônio investido cobre o seu custo de vida mensal, sem depender de um salário. O valor necessário depende do seu custo de vida e da rentabilidade esperada da carteira. O Simulador de Independência Financeira calcula esse valor e estima em quantos anos você chega lá, de acordo com o quanto aporta por mês." }
+    },
+    {
+      "@type": "Question",
+      "name": "Como calcular a correção de um valor pela inflação?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Para corrigir um valor pela inflação, é preciso multiplicá-lo pela variação acumulada de um índice de preços (como IPCA, IGP-M ou INPC) entre a data inicial e a data final. A Calculadora de Inflação do Import Money faz essa conta automaticamente, buscando os índices oficiais em tempo real direto do Banco Central, e mostra o valor corrigido, o percentual acumulado e a evolução mês a mês." }
+    },
+    {
+      "@type": "Question",
+      "name": "As calculadoras do Import Money são gratuitas e exigem cadastro?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim, as 5 calculadoras são 100% gratuitas, funcionam direto no navegador e não pedem cadastro, e-mail ou cartão de crédito para simular." }
+    }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --bg:       #021a11;
+  --surface:  #041e13;
+  --surface2: #062618;
+  --surface3: #083020;
+  --border:   #0d4028;
+  --border2:  #165a38;
+  --green:    #2ec98e;
+  --green2:   #1a8a5f;
+  --green-dim:#0e4d32;
+  --text:     #e8f5ee;
+  --text2:    #8abfa0;
+  --text3:    #4a8a62;
+  --red:      #e05555;
+  --amber:    #f5c842;
+  --blue:     #5bc4f5;
+  --radius:   14px;
+  --radius-sm:8px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(46,201,142,.10), transparent 45%),
+    radial-gradient(circle at 100% 30%, rgba(91,196,245,.06), transparent 40%);
+  pointer-events: none;
+  z-index: 0;
+}
+a { color: inherit; }
+.mono { font-family: 'DM Mono', monospace; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+/* ── HEADER ────────────────────────────────────────────── */
+header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(2,26,17,.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
+.logo { font-family: 'DM Mono', monospace; font-size: 15px; font-weight: 500; color: var(--green); letter-spacing: 1px; text-decoration: none; }
+.nav-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--green); color: #04140c;
+  font-weight: 700; font-size: 13px;
+  padding: 10px 18px; border-radius: 999px;
+  text-decoration: none; transition: transform .15s, box-shadow .15s;
+}
+.nav-cta:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(46,201,142,.25); }
+
+/* ── HERO ──────────────────────────────────────────────── */
+.hero { padding: 72px 0 56px; }
+.hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--green);
+  background: var(--green-dim); border: 1px solid var(--green2);
+  padding: 6px 12px; border-radius: 999px; margin-bottom: 20px;
+}
+h1 {
+  font-size: 44px; line-height: 1.12; font-weight: 800; letter-spacing: -.5px;
+  margin-bottom: 20px;
+}
+h1 em { color: var(--green); font-style: normal; }
+.hero-sub { font-size: 17px; color: var(--text2); max-width: 46ch; margin-bottom: 32px; }
+.hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 28px; }
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--green); color: #04140c; font-weight: 700; font-size: 15px;
+  padding: 16px 26px; border-radius: 999px; text-decoration: none;
+  transition: transform .15s, box-shadow .15s;
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(46,201,142,.3); }
+.btn-secondary {
+  display: inline-flex; align-items: center; gap: 8px;
+  border: 1px solid var(--border2); color: var(--text2); font-weight: 600; font-size: 15px;
+  padding: 16px 24px; border-radius: 999px; text-decoration: none;
+  transition: border-color .15s, color .15s;
+}
+.btn-secondary:hover { border-color: var(--green); color: var(--green); }
+.hero-trust { display: flex; gap: 22px; flex-wrap: wrap; font-size: 12.5px; color: var(--text3); }
+.hero-trust span { display: flex; align-items: center; gap: 6px; }
+
+/* ── HERO CHART CARD ───────────────────────────────────── */
+.hero-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 26px; box-shadow: 0 20px 60px rgba(0,0,0,.45);
+}
+.hero-card-label { font-size: 11px; color: var(--text3); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 4px; }
+.hero-card-title { font-size: 13px; color: var(--text2); margin-bottom: 18px; }
+.hero-number { font-family: 'DM Mono', monospace; font-size: 38px; font-weight: 500; color: var(--green); line-height: 1; margin-bottom: 4px; }
+.hero-number-sub { font-size: 12px; color: var(--text3); margin-bottom: 18px; }
+.hero-chart-svg { width: 100%; height: 140px; display: block; }
+.hero-chart-path { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.8s ease-out forwards .3s; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.hero-legend { display: flex; justify-content: space-between; margin-top: 14px; font-size: 11px; color: var(--text3); font-family: 'DM Mono', monospace; }
+.hero-legend b { color: var(--text2); font-weight: 500; }
+
+/* ── SECTIONS ──────────────────────────────────────────── */
+section { padding: 64px 0; position: relative; z-index: 1; }
+.section-head { max-width: 640px; margin: 0 auto 44px; text-align: center; }
+.section-eyebrow { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--green); margin-bottom: 10px; }
+h2 { font-size: 30px; font-weight: 800; letter-spacing: -.4px; margin-bottom: 12px; }
+.section-sub { color: var(--text2); font-size: 15.5px; }
+
+/* ── CALC CARDS ────────────────────────────────────────── */
+.calc-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.calc-grid .calc-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.calc-grid .calc-card:last-child:nth-child(odd) .calc-features { columns: 2; column-gap: 24px; }
+@media (max-width: 700px) { .calc-grid .calc-card:last-child:nth-child(odd) .calc-features { columns: 1; } }
+.calc-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 28px; display: flex; flex-direction: column; transition: border-color .2s, transform .2s;
+}
+.calc-card:hover { border-color: var(--green2); transform: translateY(-3px); }
+.calc-icon {
+  width: 46px; height: 46px; border-radius: 12px; background: var(--green-dim);
+  display: flex; align-items: center; justify-content: center; font-size: 22px; margin-bottom: 16px;
+}
+.calc-card h3 { font-size: 19px; font-weight: 700; margin-bottom: 8px; }
+.calc-card p { color: var(--text2); font-size: 14px; margin-bottom: 16px; flex: 1; }
+.calc-features { list-style: none; margin-bottom: 20px; }
+.calc-features li { font-size: 13px; color: var(--text2); padding: 5px 0 5px 22px; position: relative; }
+.calc-features li::before { content: '✓'; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+.calc-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  color: var(--green); font-weight: 600; font-size: 13.5px; text-decoration: none;
+  border-top: 1px solid var(--border); padding-top: 16px; margin-top: auto;
+}
+.calc-link:hover { gap: 10px; }
+.calc-link svg { transition: transform .15s; }
+.calc-link:hover svg { transform: translateX(3px); }
+
+/* ── VS BLOCK (SAC x PRICE) ───────────────────────────────*/
+.vs-block { display: grid; grid-template-columns: 1fr auto 1fr; gap: 24px; align-items: center; margin-top: 40px; }
+.vs-card { background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 20px; }
+.vs-card h4 { font-family: 'DM Mono', monospace; font-size: 13px; color: var(--green); margin-bottom: 8px; letter-spacing: .5px; }
+.vs-card p { font-size: 13px; color: var(--text2); }
+.vs-x { font-family: 'DM Mono', monospace; color: var(--text3); font-size: 13px; }
+@media (max-width: 700px) { .vs-block { grid-template-columns: 1fr; } .vs-x { text-align: center; } }
+
+/* ── FAQ ───────────────────────────────────────────────── */
+.faq-list { max-width: 760px; margin: 0 auto; }
+.faq-item { border-bottom: 1px solid var(--border); }
+.faq-q {
+  width: 100%; text-align: left; background: none; border: none; color: var(--text);
+  font-family: inherit; font-size: 16px; font-weight: 600; padding: 20px 0;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px; cursor: pointer;
+}
+.faq-q .plus { font-family: 'DM Mono', monospace; color: var(--green); font-size: 18px; transition: transform .2s; flex-shrink: 0; }
+.faq-item.open .plus { transform: rotate(45deg); }
+.faq-a { max-height: 0; overflow: hidden; transition: max-height .25s ease; color: var(--text2); font-size: 14.5px; }
+.faq-item.open .faq-a { max-height: 240px; }
+.faq-a-inner { padding-bottom: 20px; }
+
+/* ── FINAL CTA ─────────────────────────────────────────── */
+.final-cta {
+  background: linear-gradient(135deg, var(--surface2), var(--surface));
+  border: 1px solid var(--green2); border-radius: 20px;
+  padding: 56px 40px; text-align: center;
+}
+.final-cta h2 { margin-bottom: 10px; }
+.final-cta p { color: var(--text2); margin-bottom: 28px; }
+
+/* ── FOOTER ────────────────────────────────────────────── */
+footer { border-top: 1px solid var(--border); padding: 32px 0; }
+.footer-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.footer-note { font-size: 12px; color: var(--text3); max-width: 640px; }
+
+/* ── RESPONSIVE ────────────────────────────────────────── */
+@media (max-width: 860px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+  .hero-card { order: -1; }
+  .calc-grid { grid-template-columns: 1fr; }
+  h1 { font-size: 32px; }
+  h2 { font-size: 24px; }
+}
+
+@media (max-width: 640px) {
+  .wrap { padding: 0 18px; }
+
+  /* Header */
+  .nav { padding: 14px 0; }
+  .logo { font-size: 13px; }
+  .nav-cta { font-size: 12px; padding: 9px 14px; }
+
+  /* Hero */
+  .hero { padding: 40px 0 40px; }
+  .eyebrow { font-size: 10px; padding: 5px 10px; margin-bottom: 16px; }
+  h1 { font-size: 27px; line-height: 1.2; margin-bottom: 14px; }
+  .hero-sub { font-size: 15px; margin-bottom: 24px; }
+  .hero-ctas { flex-direction: column; gap: 10px; margin-bottom: 22px; }
+  .btn-primary, .btn-secondary { width: 100%; justify-content: center; padding: 15px 20px; font-size: 14px; }
+  .hero-trust { gap: 10px 16px; font-size: 11.5px; }
+
+  .hero-card { padding: 20px; }
+  .hero-number { font-size: 28px; }
+  .hero-chart-svg { height: 110px; }
+
+  /* Sections */
+  section { padding: 44px 0; }
+  .section-head { margin-bottom: 32px; }
+  h2 { font-size: 22px; }
+  .section-sub { font-size: 14px; }
+
+  /* Calc cards */
+  .calc-card { padding: 22px; }
+  .calc-icon { width: 40px; height: 40px; font-size: 19px; margin-bottom: 14px; }
+  .calc-card h3 { font-size: 17px; }
+
+  /* SAC x PRICE */
+  .vs-block { gap: 14px; margin-top: 28px; }
+  .vs-card { padding: 16px; }
+
+  /* FAQ */
+  .faq-q { font-size: 14.5px; padding: 16px 0; gap: 10px; }
+  .faq-a-inner { font-size: 13.5px; }
+
+  /* Final CTA */
+  .final-cta { padding: 36px 22px; border-radius: 16px; }
+
+  /* Footer */
+  footer { padding: 24px 0; }
+  .footer-row { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .footer-note { font-size: 11.5px; }
+}
+
+@media (max-width: 380px) {
+  h1 { font-size: 24px; }
+  .hero-number { font-size: 24px; }
+  .hero-card-title { font-size: 12px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#">Import Money</a>
+    <a class="nav-cta" href="https://www.importmoney.com/calculadora-juros-compostos" target="_top">Abrir calculadoras →</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">● 5 calculadoras · grátis · sem cadastro</span>
+        <h1>Sua vida financeira, calculada <em>com precisão.</em></h1>
+        <p class="hero-sub">Juros compostos, independência financeira, financiamento imobiliário, a compra da casa própria e correção pela inflação — cinco simuladores gratuitos para você decidir com números, não com achismo.</p>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="https://www.importmoney.com/calculadora-juros-compostos" target="_top">
+            Simular agora, é grátis
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a class="btn-secondary" href="#calculadoras" onclick="return scrollToCalculadoras(event)">Ver as 5 calculadoras</a>
+        </div>
+        <div class="hero-trust">
+          <span>🔒 Sem cadastro</span>
+          <span>⚡ Resultado na hora</span>
+          <span>📱 Funciona no celular</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-label">Exemplo — Juros Compostos</div>
+        <div class="hero-card-title">R$ 500/mês · 15 anos · 1% a.m.</div>
+        <div class="hero-number">R$ 249.790,10</div>
+        <div class="hero-number-sub">R$ 90.000,00 aportados · R$ 159.790,10 em juros</div>
+        <svg class="hero-chart-svg" viewBox="0 0 320 140" preserveAspectRatio="none">
+          <line x1="0" y1="139" x2="320" y2="139" stroke="#0d4028" stroke-width="1"/>
+          <path class="hero-chart-path" d="M0,132 C40,128 60,118 90,104 C130,86 150,78 180,58 C220,34 250,22 320,4"
+                fill="none" stroke="#2ec98e" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M0,132 C40,128 60,118 90,104 C130,86 150,78 180,58 C220,34 250,22 320,4 L320,140 L0,140 Z"
+                fill="url(#g1)" opacity=".5"/>
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#2ec98e" stop-opacity=".28"/>
+              <stop offset="100%" stop-color="#2ec98e" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="hero-legend"><span>Mês 0</span><b>Patrimônio acumulado</b><span>Mês 180</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 CALCULADORAS -->
+  <section id="calculadoras">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-eyebrow">O que você pode simular</div>
+        <h2>5 calculadoras, cada uma resolvendo uma pergunta real</h2>
+        <p class="section-sub">Sem planilha, sem fórmula pra decorar. Preenche os campos e os cálculos se atualizam sozinhos.</p>
+      </div>
+
+      <div class="calc-grid">
+
+        <div class="calc-card">
+          <div class="calc-icon">📈</div>
+          <h3>Juros Compostos</h3>
+          <p>Calcule o crescimento do seu capital com aportes mensais e juros compostos, mês a mês, em gráfico.</p>
+          <ul class="calc-features">
+            <li>Aportes mensais + valor inicial</li>
+            <li>Taxa mensal ou anual, à sua escolha</li>
+            <li>Gráfico da evolução do patrimônio</li>
+          </ul>
+          <a class="calc-link" href="https://www.importmoney.com/calculadora-juros-compostos#juros" target="_top">Usar esta calculadora
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="calc-card">
+          <div class="calc-icon">🎯</div>
+          <h3>Independência Financeira</h3>
+          <p>Em quanto tempo sua carteira rende o suficiente para pagar seu custo de vida, sem precisar trabalhar.</p>
+          <ul class="calc-features">
+            <li>Baseado no seu custo de vida real</li>
+            <li>Considera patrimônio atual + aportes</li>
+            <li>Mostra a data estimada da independência</li>
+          </ul>
+          <a class="calc-link" href="https://www.importmoney.com/calculadora-juros-compostos#if" target="_top">Usar esta calculadora
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="calc-card">
+          <div class="calc-icon">🏦</div>
+          <h3>Amortização (SAC × PRICE)</h3>
+          <p>Simule financiamentos pelos sistemas SAC (parcelas decrescentes) e PRICE (parcelas fixas), lado a lado.</p>
+          <ul class="calc-features">
+            <li>Compara SAC vs PRICE no mesmo gráfico</li>
+            <li>Correção monetária e aportes extras</li>
+            <li>Tabela de amortização completa</li>
+          </ul>
+          <a class="calc-link" href="https://www.importmoney.com/calculadora-juros-compostos#amort" target="_top">Usar esta calculadora
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="calc-card">
+          <div class="calc-icon">🏠</div>
+          <h3>Planejador da Casa Própria</h3>
+          <p>Quanto você vai ter guardado até a compra, se a parcela cabe no seu orçamento e o custo total do financiamento.</p>
+          <ul class="calc-features">
+            <li>Diz se sua entrada é suficiente (20%)</li>
+            <li>Alerta se a parcela passa de 30% da renda</li>
+            <li>Cenário reverso: qual imóvel cabe no seu bolso</li>
+          </ul>
+          <a class="calc-link" href="https://www.importmoney.com/calculadora-juros-compostos#casa" target="_top">Usar esta calculadora
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="calc-card">
+          <div class="calc-icon">📉</div>
+          <h3>Calculadora de Inflação</h3>
+          <p>Corrija um valor pela inflação acumulada entre duas datas, com dados oficiais do Banco Central e do IBGE.</p>
+          <ul class="calc-features">
+            <li>IPCA, IPCA-15, INPC, IGP-M, IGP-DI ou INCC-DI</li>
+            <li>Índices oficiais buscados em tempo real</li>
+            <li>Gráfico e tabela da correção mês a mês</li>
+          </ul>
+          <a class="calc-link" href="https://www.importmoney.com/calculadora-juros-compostos#inflacao" target="_top">Usar esta calculadora
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- SAC x PRICE mini explainer -->
+      <div class="vs-block">
+        <div class="vs-card">
+          <h4>SAC</h4>
+          <p>Amortização constante. Parcela começa mais alta e cai mês a mês. Costuma pagar menos juros no total.</p>
+        </div>
+        <div class="vs-x">×</div>
+        <div class="vs-card">
+          <h4>PRICE</h4>
+          <p>Parcela fixa do início ao fim do contrato. Mais previsível para o orçamento mensal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-eyebrow">Perguntas frequentes</div>
+        <h2>Antes de simular</h2>
+      </div>
+
+      <div class="faq-list" id="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">O que são juros compostos e como calcular?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Juros compostos são juros que incidem sobre o valor original mais os juros já acumulados em períodos anteriores — o "juros sobre juros". Pra calcular, você precisa do valor inicial, do aporte mensal, da taxa de rendimento e do período. A calculadora de Juros Compostos faz essa conta automaticamente e mostra a evolução mês a mês em gráfico.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Qual a diferença entre SAC e PRICE no financiamento imobiliário?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">No PRICE, a parcela é fixa do início ao fim. No SAC, a amortização é constante e a parcela começa mais alta e vai diminuindo, o que costuma gerar menos juros totais pagos. A calculadora de Amortização compara os dois sistemas lado a lado, com correção monetária e aportes extras incluídos.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Como saber se tenho entrada suficiente para comprar um imóvel?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">A recomendação geral do mercado é ter pelo menos 20% do valor do imóvel como entrada, pra conseguir melhores condições de financiamento. O Planejador da Casa Própria calcula quanto você vai ter guardado até a data da compra e avisa se está acima ou abaixo desse mínimo.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">O que é independência financeira e quanto preciso poupar?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">É o ponto em que a renda gerada pelo seu patrimônio investido cobre seu custo de vida mensal, sem depender de salário. O valor necessário depende do seu custo de vida e da rentabilidade esperada da carteira. O simulador calcula esse valor e estima em quantos anos você chega lá.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Como calcular a correção de um valor pela inflação?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Basta multiplicar o valor pela variação acumulada de um índice de preços (IPCA, IGP-M, INPC etc.) entre a data inicial e a final. A Calculadora de Inflação faz essa conta automaticamente, buscando os índices oficiais em tempo real direto do Banco Central, e mostra o valor corrigido, o percentual acumulado e a evolução mês a mês.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">As calculadoras são gratuitas e exigem cadastro?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Não. As 5 calculadoras são 100% gratuitas, funcionam direto no navegador e não pedem cadastro, e-mail ou cartão de crédito pra simular.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section>
+    <div class="wrap">
+      <div class="final-cta">
+        <h2>Pare de estimar. Comece a calcular.</h2>
+        <p>As 5 calculadoras estão a um clique de distância — grátis, sem cadastro.</p>
+        <a class="btn-primary" href="https://www.importmoney.com/calculadora-juros-compostos" target="_top">
+          Abrir calculadoras agora
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <a class="logo" href="#">Import Money</a>
+    <p class="footer-note">As simulações são educativas e não constituem recomendação de investimento, crédito ou consultoria financeira. Rentabilidades e taxas variam conforme mercado e instituição.</p>
+  </div>
+</footer>
+
+<script>
+function scrollToCalculadoras(e) {
+  const alvo = document.getElementById('calculadoras');
+  if (alvo) {
+    e.preventDefault();
+    alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  return true;
+}
+
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+  });
+});
+</script>
+
+</body>
+</html>
