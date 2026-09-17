@@ -269,8 +269,8 @@
       <h1>Import <span>Money</span></h1>
     </div>
     <nav class="nav-links">
-      <a href="#recursos">Recursos</a>
-      <a href="#como-funciona">Como funciona</a>
+      <a href="#recursos" onclick="return scrollToSection(event,'recursos')">Recursos</a>
+      <a href="#como-funciona" onclick="return scrollToSection(event,'como-funciona')">Como funciona</a>
     </nav>
     <button type="button" class="btn btn-primary" onclick="openWaitlistForm()">Entrar na lista de espera</button>
   </div>
@@ -504,6 +504,16 @@
     try{
       window.parent.postMessage({ type: 'IMPORT_MONEY_OPEN_WAITLIST' }, '*');
     }catch(e){ /* fora de um iframe — sem efeito */ }
+  }
+
+  // Rolagem forçada via JS para os links do menu (Recursos / Como funciona).
+  // Dentro de um iframe embutido no Wix, o pulo automático de um simples
+  // <a href="#id"> nem sempre dispara — então rolamos explicitamente.
+  function scrollToSection(e, id){
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if(el) el.scrollIntoView({ behavior:'smooth', block:'start' });
+    return false;
   }
 </script>
 
