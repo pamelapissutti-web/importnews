@@ -1,5 +1,41 @@
 [
   {
+    "slug": "fed-eleva-juros-primeira-vez-3-anos-warsh",
+    "title": "Fed eleva juros pela primeira vez em 3 anos e sinaliza mais um aumento até dezembro",
+    "excerpt": "O Federal Reserve subiu os juros em 0,25 ponto percentual, para 3,75%-4,00%, em decisão unânime sob o comando de Kevin Warsh. A projeção mediana do comitê para o fim do ano subiu para 4,1%, indicando pelo menos mais uma alta.",
+    "paragraphs": [
+      "O Federal Reserve elevou os juros dos Estados Unidos em 0,25 ponto percentual nesta quarta-feira (16/9), para a faixa entre 3,75% e 4,00% ao ano — a primeira alta desde julho de 2023 e a primeira sob o comando de Kevin Warsh. A decisão foi unânime entre os membros do comitê.",
+      "Mais do que a alta em si, o mercado reagiu ao tom mais duro da sinalização: a projeção mediana dos dirigentes para os juros no fim de 2026 subiu de 3,8% para 4,1%, o que implica pelo menos mais um aumento de 0,25 ponto até dezembro, em meio à pressão inflacionária e à alta do petróleo."
+    ],
+    "sourceLabel": "Exame",
+    "sourceUrl": "https://exame.com/invest/mercados/federal-reserve-eleva-juros-nos-eua-pela-primeira-vez-em-tres-anos/",
+    "date": "2026-09-17T14:20:00.000Z"
+  },
+  {
+    "slug": "copom-corta-selic-1375-quinto-corte-unanime",
+    "title": "Copom corta Selic para 13,75% pela quinta vez seguida, em decisão unânime",
+    "excerpt": "O Banco Central reduziu a taxa básica de juros em 0,25 ponto percentual nesta quarta-feira, para 13,75% ao ano, confirmando a expectativa do mercado e completando o quinto corte consecutivo desde março.",
+    "paragraphs": [
+      "O Copom reduziu a Selic em 0,25 ponto percentual nesta quarta-feira (16/9), de 14% para 13,75% ao ano, em decisão unânime e em linha com a expectativa da grande maioria das casas consultadas pelo mercado. Foi o quinto corte consecutivo da taxa básica de juros desde março, quando o Banco Central iniciou o atual ciclo de ajuste.",
+      "A nova taxa entra em vigor nesta quinta-feira (17/9) e vale até a próxima reunião do colegiado, prevista para novembro, quando o mercado espera mais sinalizações sobre o ritmo dos próximos cortes."
+    ],
+    "sourceLabel": "InfoMoney",
+    "sourceUrl": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-16092026/",
+    "date": "2026-09-17T14:20:20.000Z"
+  },
+  {
+    "slug": "ibovespa-cai-051-fed-eleva-juros-aperto",
+    "title": "Ibovespa cai 0,51% após Fed elevar juros e sinalizar mais aperto monetário",
+    "excerpt": "O principal índice da bolsa brasileira recuou a 185.547 pontos nesta quinta-feira, pressionado pela reação ao tom mais duro do Fed, com Petrobras liderando as perdas após forte alta na véspera.",
+    "paragraphs": [
+      "O Ibovespa fechou em queda de 0,51%, aos 185.547 pontos, nesta quinta-feira (17/9), em uma pausa na trajetória do ano após a decisão do Federal Reserve de elevar os juros americanos e sinalizar um tom mais duro para as próximas reuniões.",
+      "Petrobras liderou as perdas do dia, com as ações preferenciais caindo 3,5% e as ordinárias recuando 4,3%, revertendo parte da forte alta registrada na véspera. O real, por sua vez, teve variação pouco expressiva, cotado perto de R$ 5,151 por dólar."
+    ],
+    "sourceLabel": "Forbes Brasil",
+    "sourceUrl": "https://forbes.com.br/forbes-money/2026/09/ibovespa-cai-apos-fed-elevar-juros-sinalizar-nova-alta/",
+    "date": "2026-09-17T14:20:40.000Z"
+  },
+  {
     "slug": "petrobras-sobe-3-rali-petroleo-gnl-sempra",
     "title": "Petrobras sobe mais de 3% com rali do petróleo e acordo de GNL com a Sempra",
     "excerpt": "Ações da Petrobras avançam mais de 3% nesta quarta-feira (16/9), impulsionadas pela continuidade do rali internacional do petróleo e por um novo contrato de longo prazo para venda de GNL à Sempra Infrastructure.",
@@ -418,53 +454,5 @@
     "sourceLabel": "Jornal de Brasília",
     "sourceUrl": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pesquisa-quaest-mostra-lula-e-flavio-em-empate-tecnico-no-2o-turno/",
     "date": "2026-09-03T15:37:34.276Z"
-  },
-  {
-    "slug": "ibovespa-dispara-231-semana-exterior-alerta",
-    "title": "Ibovespa dispara e acumula alta de 2,31% na semana, com exterior em alerta",
-    "excerpt": "O Ibovespa acumula alta de 2,31% na semana e 4,48% no trimestre, com volume de R$ 30,9 bilhões, mesmo com o petróleo Brent subindo perto de US$ 95 em meio à escalada do conflito entre EUA e Irã.",
-    "paragraphs": [
-      "O Ibovespa operava em forte alta nesta quarta-feira (2/9), oscilando entre 177.299 e 181.060 pontos, com volume financeiro de R$ 30,90 bilhões. No acumulado da semana, o índice já sobe 2,31%, e no trimestre avança 4,48%.",
-      "O movimento local contrasta com um quadro externo mais adverso: o petróleo Brent subiu pelo terceiro dia seguido, perto de US$ 95 o barril, no maior nível desde julho, em meio à escalada do conflito entre Estados Unidos e Irã."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02092026/",
-    "date": "2026-09-02T14:34:50.068Z"
-  },
-  {
-    "slug": "dolar-cai-047-r5156-segunda-baixa-seguida",
-    "title": "Dólar fecha em queda de 0,47% e vai a R$ 5,156, na segunda baixa seguida",
-    "excerpt": "O dólar fechou a R$ 5,156, em queda de 0,47%, na segunda sessão seguida de baixa, mesmo com o mercado global mais tenso por causa do conflito entre Estados Unidos e Irã.",
-    "paragraphs": [
-      "O dólar comercial fechou a véspera cotado a R$ 5,156 tanto na compra quanto na venda, uma queda de 0,47% frente ao real e a segunda sessão seguida de baixa da moeda americana.",
-      "O movimento ocorre mesmo com o cenário externo mais tenso, com o mercado dividido entre o rali da bolsa brasileira e a escalada das tensões geopolíticas envolvendo Estados Unidos e Irã."
-    ],
-    "sourceLabel": "SpaceMoney",
-    "sourceUrl": "https://www.spacemoney.com.br/economia/dolar-hoje/dolar-abre-com-indicadores-e-cenario-politico",
-    "date": "2026-09-02T14:34:50.096Z"
-  },
-  {
-    "slug": "bitcoin-ethereum-caem-guerra-eua-ira",
-    "title": "Bitcoin e Ethereum caem com nova escalada da guerra entre EUA e Irã",
-    "excerpt": "Bitcoin caiu a US$ 76.597 e Ethereum a US$ 2.373 nesta quarta, pressionados pela nova escalada do conflito entre Estados Unidos e Irã, que também levou o petróleo a subir.",
-    "paragraphs": [
-      "O Bitcoin recuava nesta quarta-feira (2/9), negociado a US$ 76.597 no início da manhã, queda de cerca de 1,5% ante a abertura do dia anterior. O Ethereum também cedia, cotado a US$ 2.373, baixa de 2%.",
-      "A queda acompanha uma nova rodada de ataques aéreos dos Estados Unidos contra alvos no Irã, que retaliou atingindo bases militares americanas com mísseis e drones — um cenário que também pressionou o preço do petróleo para cima."
-    ],
-    "sourceLabel": "Yahoo Finance",
-    "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html",
-    "date": "2026-09-02T14:34:50.096Z"
-  },
-  {
-    "slug": "bbas3-jcp-complementar-ex-direito",
-    "title": "Banco do Brasil (BBAS3) atualiza JCP complementar e ação passa a negociar ex-direito",
-    "excerpt": "Banco do Brasil atualiza o JCP complementar do 2º trimestre para R$ 0,10489 por ação, e BBAS3 passa a negociar ex-direito a partir desta quarta-feira.",
-    "paragraphs": [
-      "O Banco do Brasil informou que o valor atualizado do Juros sobre Capital Próprio (JCP) complementar referente ao segundo trimestre de 2026 é de R$ 0,10489 por ação.",
-      "A partir desta quarta-feira (2/9), as ações BBAS3 passam a ser negociadas na condição \"ex-JCP\", ou seja, quem comprar o papel a partir de hoje não tem mais direito a esse provento específico."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-atualiza-jcp-complementar-veja-valor-por-acao/",
-    "date": "2026-09-02T14:34:50.096Z"
   }
 ]
