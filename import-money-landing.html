@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Import Money — Sua carteira de investimentos, finalmente organizada</title>
+<meta name="description" content="Import Money reúne carteira, cotações, proventos e Imposto de Renda em uma única plataforma. Entre na lista de espera e garanta acesso antecipado.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpolygon points='16,1 28,8 28,24 16,31 4,24 4,8' fill='%23000'/%3E%3Cpolygon points='16,1 28,8 28,24 16,31 4,24 4,8' fill='none' stroke='%232ec98e' stroke-width='2'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='14' fill='%232ec98e'%3E%24%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --black:#000000;
+    --bg2:#050705;
+    --surface:#0c1310;
+    --surface2:#121a16;
+    --border:#1d2622;
+    --border2:#283530;
+    --text:#f3f7f4;
+    --text2:#a6b1ab;
+    --text3:#6d7871;
+    --green:#2ec98e;
+    --green-dim:rgba(46,201,142,.14);
+    --blue:#5bc4f5;
+    --blue-dim:rgba(91,196,245,.12);
+    --red:#f5716a;
+    --radius:14px;
+    --radius-sm:9px;
+    --maxw:1140px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--black);
+    color:var(--text);
+    font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  img,svg{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  ul{list-style:none}
+  .mono{font-family:'DM Mono',monospace}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* ── background texture ─────────────────────────────────────── */
+  .bg-grid{
+    position:fixed;inset:0;z-index:0;pointer-events:none;
+    background-image:
+      linear-gradient(rgba(46,201,142,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(46,201,142,.05) 1px, transparent 1px);
+    background-size:64px 64px;
+    -webkit-mask-image:radial-gradient(ellipse 80% 50% at 50% 0%, #000 40%, transparent 100%);
+    mask-image:radial-gradient(ellipse 80% 50% at 50% 0%, #000 40%, transparent 100%);
+  }
+
+  /* ── nav ─────────────────────────────────────────────────────── */
+  header.nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(0,0,0,.72);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--border);
+  }
+  .nav-inner{
+    max-width:var(--maxw);margin:0 auto;padding:14px 24px;
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+  }
+  .brand{display:flex;align-items:center;gap:10px}
+  .brand h1{font-size:17px;font-weight:700;letter-spacing:-.3px}
+  .brand h1 span{color:var(--green)}
+  .nav-links{display:flex;align-items:center;gap:32px}
+  .nav-links a{font-size:13.5px;color:var(--text2);font-weight:500;transition:color .15s}
+  .nav-links a:hover{color:var(--text)}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    padding:11px 22px;border-radius:999px;font-size:13.5px;font-weight:600;
+    border:1px solid transparent;cursor:pointer;transition:all .18s;white-space:nowrap;
+  }
+  .btn-primary{background:var(--green);color:#04140c;box-shadow:0 0 0 0 rgba(46,201,142,.5)}
+  .btn-primary:hover{background:#3ee0a0;box-shadow:0 6px 24px rgba(46,201,142,.35);transform:translateY(-1px)}
+  .btn-ghost{background:transparent;border-color:var(--border2);color:var(--text)}
+  .btn-ghost:hover{border-color:var(--green);color:var(--green)}
+  .btn-lg{padding:14px 30px;font-size:14.5px}
+
+  /* ── ticker strip ───────────────────────────────────────────── */
+  .ticker{
+    position:relative;border-bottom:1px solid var(--border);background:var(--bg2);
+    overflow:hidden;white-space:nowrap;
+  }
+  .ticker-track{display:inline-flex;gap:0;animation:ticker-scroll 34s linear infinite}
+  .ticker:hover .ticker-track{animation-play-state:paused}
+  @keyframes ticker-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .ticker-item{
+    display:inline-flex;align-items:center;gap:8px;padding:9px 22px;
+    font-size:12px;border-right:1px solid var(--border);color:var(--text2);
+  }
+  .ticker-item b{color:var(--text);font-weight:500}
+  .up{color:var(--green)}
+  .down{color:var(--red)}
+
+  /* ── hero ────────────────────────────────────────────────────── */
+  .hero{position:relative;z-index:1;padding:96px 0 80px}
+  .hero-inner{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;padding:6px 14px;
+    border:1px solid var(--border2);border-radius:999px;font-size:12px;
+    color:var(--green);background:var(--green-dim);font-weight:600;letter-spacing:.2px;
+    margin-bottom:22px;
+  }
+  .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 1.6s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(46,201,142,.5)}50%{opacity:.55;box-shadow:0 0 0 5px rgba(46,201,142,0)}}
+  .hero h1{
+    font-size:50px;line-height:1.08;font-weight:800;letter-spacing:-1.4px;
+    margin-bottom:20px;
+  }
+  .hero h1 .grad{
+    background:linear-gradient(90deg,var(--green),var(--blue));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .hero p.lead{font-size:17px;color:var(--text2);max-width:480px;margin-bottom:32px}
+  .hero-cta{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .hero-cta small{color:var(--text3);font-size:12.5px}
+  .hero-badges{display:flex;gap:22px;margin-top:36px;flex-wrap:wrap}
+  .hero-badge{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--text2)}
+  .hero-badge svg{width:16px;height:16px;color:var(--green);flex-shrink:0}
+
+  /* ── mock dashboard card ────────────────────────────────────── */
+  .mock{
+    position:relative;background:linear-gradient(180deg,var(--surface),var(--bg2));
+    border:1px solid var(--border2);border-radius:18px;padding:22px;
+    box-shadow:0 30px 80px -20px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.02) inset;
+  }
+  .mock::before{
+    content:'';position:absolute;inset:-40px;z-index:-1;
+    background:radial-gradient(closest-side, rgba(46,201,142,.16), transparent 70%);
+    filter:blur(10px);
+  }
+  .mock-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+  .mock-head .t{font-size:12px;color:var(--text3);display:flex;align-items:center;gap:8px}
+  .mock-head .live{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--green)}
+  .mock-head .live i{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 1.6s ease-in-out infinite}
+  .mock-total{margin-bottom:18px}
+  .mock-total .lbl{font-size:11.5px;color:var(--text3);margin-bottom:4px}
+  .mock-total .val{font-size:30px;font-weight:600;letter-spacing:-.8px}
+  .mock-total .chg{display:inline-flex;align-items:center;gap:4px;font-size:12.5px;color:var(--green);margin-left:10px;background:var(--green-dim);padding:2px 8px;border-radius:6px}
+  .mock-chart{height:88px;margin:14px 0 18px}
+  .mock-rows{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--border)}
+  .mock-row{display:flex;align-items:center;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--border);font-size:12.5px}
+  .mock-row .name{display:flex;align-items:center;gap:9px;color:var(--text)}
+  .mock-row .tag{width:30px;height:30px;border-radius:8px;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--text2)}
+  .mock-row .right{display:flex;align-items:center;gap:10px}
+  .mock-row .pct{padding:2px 7px;border-radius:6px;font-size:11.5px}
+  .mock-row .pct.up{background:var(--green-dim);color:var(--green)}
+  .mock-row .pct.down{background:rgba(245,113,106,.12);color:var(--red)}
+
+  /* ── section shared ─────────────────────────────────────────── */
+  section{position:relative;z-index:1;padding:100px 0}
+  .section-head{max-width:600px;margin:0 auto 56px;text-align:center}
+  .kicker{font-size:12px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--blue);margin-bottom:14px}
+  .section-head h2{font-size:34px;font-weight:800;letter-spacing:-.8px;margin-bottom:14px}
+  .section-head p{color:var(--text2);font-size:15.5px}
+
+  /* ── features grid ──────────────────────────────────────────── */
+  .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .feat-card{
+    background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+    padding:26px 24px;transition:border-color .2s,transform .2s,background .2s;
+  }
+  .feat-card:hover{border-color:var(--border2);background:var(--surface2);transform:translateY(-3px)}
+  .feat-icon{
+    width:42px;height:42px;border-radius:10px;background:var(--green-dim);
+    display:flex;align-items:center;justify-content:center;margin-bottom:18px;
+    color:var(--green);
+  }
+  .feat-icon svg{width:21px;height:21px}
+  .feat-card h3{font-size:16px;font-weight:700;margin-bottom:9px;letter-spacing:-.2px}
+  .feat-card p{font-size:13.5px;color:var(--text2);line-height:1.65}
+
+  /* ── how it works ───────────────────────────────────────────── */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;position:relative}
+  .steps::before{
+    content:'';position:absolute;top:23px;left:12%;right:12%;height:1px;
+    background:linear-gradient(90deg,transparent,var(--border2),var(--border2),transparent);
+  }
+  .step{padding:0 20px;text-align:center;position:relative}
+  .step .num{
+    width:46px;height:46px;border-radius:50%;background:var(--black);
+    border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;
+    font-family:'DM Mono',monospace;font-weight:500;font-size:15px;color:var(--green);
+    margin:0 auto 22px;position:relative;z-index:1;
+  }
+  .step h3{font-size:16px;font-weight:700;margin-bottom:10px}
+  .step p{font-size:13.5px;color:var(--text2);max-width:280px;margin:0 auto}
+
+  /* ── waitlist ────────────────────────────────────────────────── */
+  .waitlist-section{padding-top:0}
+  .waitlist-card{
+    max-width:760px;margin:0 auto;border-radius:20px;
+    background:linear-gradient(180deg,var(--surface),var(--bg2));
+    border:1px solid var(--border2);padding:56px 48px;text-align:center;position:relative;overflow:hidden;
+  }
+  .waitlist-card::before{
+    content:'';position:absolute;top:-120px;left:50%;transform:translateX(-50%);
+    width:420px;height:240px;background:radial-gradient(ellipse, rgba(46,201,142,.22), transparent 70%);
+    filter:blur(20px);pointer-events:none;
+  }
+  .waitlist-card > *{position:relative;z-index:1}
+  .waitlist-card h2{font-size:30px;font-weight:800;letter-spacing:-.6px;margin-bottom:14px}
+  .waitlist-card > p{color:var(--text2);font-size:15px;max-width:460px;margin:0 auto 36px}
+  .form-slot{
+    border:1.5px dashed var(--border2);border-radius:var(--radius);
+    padding:40px 24px;color:var(--text3);font-size:13px;
+    display:flex;flex-direction:column;align-items:center;gap:10px;
+  }
+  .form-slot svg{width:26px;height:26px;color:var(--text3)}
+  /* estilos herdados automaticamente por qualquer formulário inserido aqui dentro */
+  .form-slot input,.form-slot select,.form-slot textarea{
+    width:100%;padding:12px 14px;border-radius:var(--radius-sm);
+    border:1px solid var(--border2);background:var(--black);color:var(--text);
+    font-family:'Plus Jakarta Sans',sans-serif;font-size:13.5px;outline:none;
+    transition:border-color .15s;
+  }
+  .form-slot input:focus,.form-slot select:focus,.form-slot textarea:focus{border-color:var(--green)}
+  .form-slot label{display:block;font-size:12.5px;color:var(--text2);text-align:left;margin-bottom:6px}
+  .form-slot button{
+    width:100%;padding:13px;border-radius:999px;border:none;background:var(--green);
+    color:#04140c;font-weight:700;font-size:14px;cursor:pointer;font-family:inherit;
+  }
+
+  /* ── footer ──────────────────────────────────────────────────── */
+  footer{border-top:1px solid var(--border);padding:36px 0;position:relative;z-index:1}
+  .footer-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+  footer .brand h1{font-size:14px}
+  footer p{font-size:12.5px;color:var(--text3)}
+
+  /* ── reveal on scroll ────────────────────────────────────────── */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.in{opacity:1;transform:translateY(0)}
+
+  /* ── responsive ──────────────────────────────────────────────── */
+  @media (max-width:900px){
+    .hero-inner{grid-template-columns:1fr}
+    .mock{max-width:480px}
+    .features{grid-template-columns:repeat(2,1fr)}
+    .steps{grid-template-columns:1fr;gap:36px}
+    .steps::before{display:none}
+    .nav-links{display:none}
+  }
+  @media (max-width:560px){
+    .wrap{padding:0 18px}
+    .hero{padding:56px 0 56px}
+    .hero h1{font-size:34px}
+    .hero p.lead{font-size:15.5px}
+    section{padding:64px 0}
+    .features{grid-template-columns:1fr}
+    .section-head h2{font-size:26px}
+    .waitlist-card{padding:36px 22px}
+    .waitlist-card h2{font-size:24px}
+    .hero-badges{gap:14px}
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-grid"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="16,1 28,8 28,24 16,31 4,24 4,8" fill="none" stroke="#2ec98e" stroke-width="2"/>
+        <polygon points="16,6 11,12 14,12 14,18.5 18,18.5 18,12 21,12" fill="white"/>
+        <polygon points="16,26 21,20 18,20 18,13.5 14,13.5 14,20 11,20" fill="#2ec98e"/>
+        <text x="16" y="18" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black,sans-serif" font-weight="900" font-size="9" fill="#2ec98e">$</text>
+      </svg>
+      <h1>Import <span>Money</span></h1>
+    </div>
+    <nav class="nav-links">
+      <a href="#recursos">Recursos</a>
+      <a href="#como-funciona">Como funciona</a>
+    </nav>
+    <a href="#waitlist" class="btn btn-primary">Entrar na lista de espera</a>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track mono">
+    <span class="ticker-item">PETR4 <b>32,18</b> <span class="up">▲ 1,4%</span></span>
+    <span class="ticker-item">VALE3 <b>58,92</b> <span class="down">▼ 0,6%</span></span>
+    <span class="ticker-item">ITUB4 <b>34,05</b> <span class="up">▲ 0,9%</span></span>
+    <span class="ticker-item">BOVA11 <b>129,40</b> <span class="up">▲ 0,3%</span></span>
+    <span class="ticker-item">IVVB11 <b>287,11</b> <span class="down">▼ 0,2%</span></span>
+    <span class="ticker-item">WEGE3 <b>41,77</b> <span class="up">▲ 2,1%</span></span>
+    <span class="ticker-item">HGLG11 <b>163,20</b> <span class="up">▲ 0,5%</span></span>
+    <span class="ticker-item">USD/BRL <b>5,15</b> <span class="down">▼ 0,2%</span></span>
+    <!-- duplicado para loop contínuo -->
+    <span class="ticker-item">PETR4 <b>32,18</b> <span class="up">▲ 1,4%</span></span>
+    <span class="ticker-item">VALE3 <b>58,92</b> <span class="down">▼ 0,6%</span></span>
+    <span class="ticker-item">ITUB4 <b>34,05</b> <span class="up">▲ 0,9%</span></span>
+    <span class="ticker-item">BOVA11 <b>129,40</b> <span class="up">▲ 0,3%</span></span>
+    <span class="ticker-item">IVVB11 <b>287,11</b> <span class="down">▼ 0,2%</span></span>
+    <span class="ticker-item">WEGE3 <b>41,77</b> <span class="up">▲ 2,1%</span></span>
+    <span class="ticker-item">HGLG11 <b>163,20</b> <span class="up">▲ 0,5%</span></span>
+    <span class="ticker-item">USD/BRL <b>5,15</b> <span class="down">▼ 0,2%</span></span>
+  </div>
+</div>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Acesso antecipado em breve</div>
+        <h1>Sua carteira de investimentos, <span class="grad">finalmente organizada</span></h1>
+        <p class="lead">Import Money reúne carteira, cotações, proventos e Imposto de Renda em uma única plataforma — sem planilhas, sem lançamento manual, sem dor de cabeça na hora de declarar.</p>
+        <div class="hero-cta">
+          <a href="#waitlist" class="btn btn-primary btn-lg">Quero acesso antecipado</a>
+          <small>Vagas limitadas · sem custo para entrar na lista</small>
+        </div>
+        <div class="hero-badges">
+          <div class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Importação automática de notas</div>
+          <div class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> DARF e IR sem planilha</div>
+          <div class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Cotações em tempo real</div>
+        </div>
+      </div>
+
+      <div class="mock">
+        <div class="mock-head">
+          <span class="t">🖥 Dashboard</span>
+          <span class="live"><i></i> ao vivo</span>
+        </div>
+        <div class="mock-total">
+          <div class="lbl">Patrimônio total</div>
+          <span class="val mono">R$ 284.750</span><span class="chg mono">▲ 3,2%</span>
+        </div>
+        <div class="mock-chart">
+          <svg viewBox="0 0 400 90" width="100%" height="100%" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="mockFill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#2ec98e" stop-opacity="0.35"/>
+                <stop offset="1" stop-color="#2ec98e" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <path d="M0,70 L40,62 L80,68 L120,50 L160,55 L200,38 L240,42 L280,25 L320,30 L360,14 L400,18 L400,90 L0,90 Z" fill="url(#mockFill)"/>
+            <path d="M0,70 L40,62 L80,68 L120,50 L160,55 L200,38 L240,42 L280,25 L320,30 L360,14 L400,18" fill="none" stroke="#2ec98e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="mock-rows mono">
+          <div class="mock-row">
+            <span class="name"><span class="tag">PE</span> PETR4</span>
+            <span class="right">32,18 <span class="pct up">▲1,4%</span></span>
+          </div>
+          <div class="mock-row">
+            <span class="name"><span class="tag">VA</span> VALE3</span>
+            <span class="right">58,92 <span class="pct down">▼0,6%</span></span>
+          </div>
+          <div class="mock-row">
+            <span class="name"><span class="tag">WE</span> WEGE3</span>
+            <span class="right">41,77 <span class="pct up">▲2,1%</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="recursos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="kicker">Recursos</div>
+        <h2>Tudo que você precisa para gerenciar seus investimentos</h2>
+        <p>Uma plataforma completa, pensada para o investidor brasileiro que quer clareza, controle e menos trabalho manual.</p>
+      </div>
+
+      <div class="features">
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg></div>
+          <h3>Dashboard consolidado</h3>
+          <p>Patrimônio, rentabilidade e alocação da carteira em um único painel, atualizado em tempo real.</p>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="m9.5 14.5 2.5-2.5 2.5 2.5"/></svg></div>
+          <h3>Importação automática de notas</h3>
+          <p>Envie até 30 PDFs de corretagem de uma vez (Clear, XP, Rico, BTG e outras) e o sistema lança as operações sozinho.</p>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"/></svg></div>
+          <h3>Painel Global</h3>
+          <p>Cotações ao vivo, índices, moedas e rankings de mercado em um terminal só seu.</p>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h10"/></svg></div>
+          <h3>Posições e histórico</h3>
+          <p>Todas as compras, vendas e operações organizadas, rastreáveis e fáceis de auditar a qualquer momento.</p>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5"/><path d="M12 16.5h.01"/></svg></div>
+          <h3>Proventos e JCP</h3>
+          <p>Controle automático de dividendos, JCP e proventos recebidos, ativo por ativo.</p>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V10"/><path d="M4 6l4-4 4 4"/><path d="M20 3v11"/><path d="M20 18l-4 4-4-4"/></svg></div>
+          <h3>Simulador de carteira</h3>
+          <p>Monte cenários hipotéticos de alocação e compare o desempenho com a sua carteira real.</p>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m21 21-4.35-4.35"/><path d="M8 11l1.5-2 1.5 1 2-2.5"/></svg></div>
+          <h3>Fundamentos dos ativos</h3>
+          <p>Indicadores fundamentalistas de cada ativo da carteira para embasar suas decisões.</p>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+          <h3>Controle de gastos</h3>
+          <p>Orçamento pessoal integrado, para enxergar investimentos e despesas na mesma visão.</p>
+        </div>
+        <div class="feat-card reveal">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="m9 15 2 2 4-4"/></svg></div>
+          <h3>Imposto de Renda automático</h3>
+          <p>Geração de DARF mensal e relatório anual de rendimentos, prontos para a sua declaração.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="kicker">Como funciona</div>
+        <h2>Da nota de corretagem à declaração, em três passos</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="num">1</div>
+          <h3>Importe suas notas</h3>
+          <p>Envie os PDFs de corretagem. O sistema reconhece e lança as operações automaticamente.</p>
+        </div>
+        <div class="step reveal">
+          <div class="num">2</div>
+          <h3>Acompanhe em tempo real</h3>
+          <p>Veja patrimônio, rentabilidade, proventos e cotações consolidados em um painel único.</p>
+        </div>
+        <div class="step reveal">
+          <div class="num">3</div>
+          <h3>Declare sem complicação</h3>
+          <p>Gere o DARF mensal e o relatório anual de rendimentos, prontos para o Imposto de Renda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="waitlist" class="waitlist-section">
+    <div class="wrap">
+      <div class="waitlist-card reveal">
+        <h2>Preencha o formulário abaixo e entre na lista de espera</h2>
+        <p>Garanta acesso antecipado ao Import Money assim que a plataforma for lançada. Vagas limitadas.</p>
+
+        <!-- ═══════════════════════════════════════════════════════════
+             COLOQUE SEU FORMULÁRIO AQUI DENTRO.
+             Inputs, selects, textareas e botões inseridos neste bloco
+             já herdam o estilo da página (fundo escuro, bordas, foco
+             verde). Basta substituir o placeholder abaixo.
+             ═══════════════════════════════════════════════════════════ -->
+        <div class="form-slot" id="waitlist-form">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="m9.5 14.5 2.5-2.5 2.5 2.5"/></svg>
+          <span>Seu formulário de inscrição vai aqui</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="brand">
+      <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="16,1 28,8 28,24 16,31 4,24 4,8" fill="none" stroke="#2ec98e" stroke-width="2"/>
+        <polygon points="16,6 11,12 14,12 14,18.5 18,18.5 18,12 21,12" fill="white"/>
+        <polygon points="16,26 21,20 18,20 18,13.5 14,13.5 14,20 11,20" fill="#2ec98e"/>
+      </svg>
+      <h1>Import <span style="color:#2ec98e">Money</span></h1>
+    </div>
+    <p>© 2026 Import Money — Plataforma de Investimentos.</p>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+
+</body>
+</html>
