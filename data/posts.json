@@ -1,5 +1,41 @@
 [
   {
+    "slug": "ibovespa-cai-041-sexta-japao-eleicoes",
+    "title": "Ibovespa cai 0,41% nesta sexta e interrompe sequência de 4 semanas em alta",
+    "excerpt": "O principal índice da bolsa brasileira fechou aos 185.229 pontos, pressionado pela alta de juros no Japão, ao maior nível em 31 anos, e pela cautela do mercado com o cenário eleitoral e fiscal.",
+    "paragraphs": [
+      "O Ibovespa fechou em queda de 0,41% nesta sexta-feira (18/9), aos 185.229 pontos, encerrando uma sequência de quatro semanas consecutivas de alta — na semana, o índice recuou 1,06%. O volume financeiro do dia somou R$ 26,8 bilhões.",
+      "O dia foi marcado pela decisão do Banco do Japão de elevar sua taxa básica de juros ao maior nível em 31 anos, somando-se ao movimento de aperto monetário já em curso nos Estados Unidos, no Reino Unido e na União Europeia. No Brasil, o reajuste do Bolsa Família reforçou as preocupações fiscais do mercado a poucas semanas das eleições."
+    ],
+    "sourceLabel": "Exame",
+    "sourceUrl": "https://exame.com/invest/mercados/ibovespa-ibov-fechamento-18-09-2026/",
+    "date": "2026-09-18T14:20:00.000Z"
+  },
+  {
+    "slug": "bitcoin-sobe-78-mil-resiste-fed",
+    "title": "Bitcoin sobe mais de 2% e volta a US$ 78 mil, resistindo à alta de juros do Fed",
+    "excerpt": "A criptomoeda se recupera após a decisão do Federal Reserve de elevar os juros americanos, negociada perto de US$ 78.228, em meio à queda do petróleo e à recuperação das bolsas internacionais.",
+    "paragraphs": [
+      "O Bitcoin avançava cerca de 2,1% em 24 horas nesta sexta-feira (18/9), cotado a aproximadamente US$ 78.228 — patamar próximo de onde estava antes da alta de juros promovida pelo Federal Reserve na quarta-feira. Apesar de decisões de aperto monetário costumarem pressionar ativos de risco, a criptomoeda absorveu a notícia sem ceder terreno.",
+      "O movimento de recuperação ocorre em meio à queda do petróleo e à melhora nas bolsas internacionais, que favorecem ativos de risco, mesmo após o projeto de lei sobre regulação do mercado cripto não ter avançado no Senado dos Estados Unidos nesta semana."
+    ],
+    "sourceLabel": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/markets/2026/09/18/bitcoin-weathers-september-storm-as-rate-hikes-and-clarity-act-setback-test-bulls",
+    "date": "2026-09-18T14:20:20.000Z"
+  },
+  {
+    "slug": "tim-aprova-jcp-515-milhoes-cancela-acoes",
+    "title": "TIM aprova R$ 515 milhões em JCP e cancela ações em tesouraria",
+    "excerpt": "A operadora TIM Brasil (TIMS3) anunciou a distribuição de R$ 515 milhões em juros sobre capital próprio aos acionistas e o cancelamento de 13,2 milhões de ações mantidas em tesouraria.",
+    "paragraphs": [
+      "A TIM Brasil (TIMS3) aprovou a distribuição de R$ 515 milhões em juros sobre capital próprio (JCP) a seus acionistas, equivalente a cerca de R$ 0,217 por ação. Terão direito ao provento os acionistas com posição na companhia até o fechamento do pregão de 22 de setembro, com as ações passando a ser negociadas \"ex-JCP\" a partir do dia seguinte.",
+      "A empresa também anunciou o cancelamento de 13,2 milhões de ações mantidas em tesouraria, como parte de sua estratégia de remuneração aos acionistas. O pagamento do JCP está previsto para ocorrer até 22 de janeiro de 2027, com desconto de 17,5% de imposto de renda na fonte."
+    ],
+    "sourceLabel": "InfoMoney",
+    "sourceUrl": "https://www.infomoney.com.br/mercados/tim-tims3-anuncia-r-515-em-proventos-e-cancelamento-de-acoes/",
+    "date": "2026-09-18T14:20:40.000Z"
+  },
+  {
     "slug": "fed-eleva-juros-primeira-vez-3-anos-warsh",
     "title": "Fed eleva juros pela primeira vez em 3 anos e sinaliza mais um aumento até dezembro",
     "excerpt": "O Federal Reserve subiu os juros em 0,25 ponto percentual, para 3,75%-4,00%, em decisão unânime sob o comando de Kevin Warsh. A projeção mediana do comitê para o fim do ano subiu para 4,1%, indicando pelo menos mais uma alta.",
@@ -358,101 +394,5 @@
     "sourceLabel": "CoinGabbar",
     "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-bitcoin-btc-ethereum-eth-price-september-5",
     "date": "2026-09-05T14:20:20.000Z"
-  },
-  {
-    "slug": "ibovespa-cai-payroll-eua-acima-esperado",
-    "title": "Ibovespa cai após payroll dos EUA vir muito acima do esperado",
-    "excerpt": "O Ibovespa cai nesta sexta-feira (4/9) após payroll dos EUA vir muito acima do esperado, pressionando Vale, Petrobras e bancos na bolsa brasileira.",
-    "paragraphs": [
-      "O Ibovespa operava em queda nesta sexta-feira (4/9), perto dos 183,8 mil pontos, revertendo parte do rali acumulado nas sessões anteriores.",
-      "O movimento negativo teve como principal gatilho o payroll americano de agosto, divulgado nesta manhã, que mostrou criação de 162 mil vagas de emprego — bem acima das cerca de 56 mil esperadas pelo mercado, o que reforçou a cautela dos investidores com o ritmo de cortes de juros nos Estados Unidos e pressionou ações como Vale, Petrobras e os grandes bancos."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/ibovespa-abertura-fechamento-04092026/",
-    "date": "2026-09-04T14:20:00.000Z"
-  },
-  {
-    "slug": "dolar-sobe-513-payroll-forte-eua",
-    "title": "Dólar sobe a R$ 5,13 com payroll forte nos Estados Unidos",
-    "excerpt": "Dólar sobe a R$ 5,13 nesta sexta-feira (4/9) após payroll dos EUA vir bem acima do esperado, reduzindo apostas em cortes de juros pelo Fed.",
-    "paragraphs": [
-      "O dólar comercial subia nesta sexta-feira (4/9), cotado perto de R$ 5,13 na venda, alta de cerca de 0,44% ante o fechamento anterior, enquanto o contrato futuro da moeda para outubro avançava a R$ 5,151 na B3.",
-      "A valorização acompanhou o payroll de agosto nos Estados Unidos, com 162 mil vagas criadas ante uma expectativa de 56 mil — dado que reduz as apostas em cortes rápidos de juros pelo Federal Reserve e tende a fortalecer a moeda americana no cenário global."
-    ],
-    "sourceLabel": "SpaceMoney",
-    "sourceUrl": "https://www.spacemoney.com.br/economia/dolar-hoje/dolar-hoje-sobe-com-dados-de-emprego-nos-eua",
-    "date": "2026-09-04T14:20:20.000Z"
-  },
-  {
-    "slug": "bitcoin-supera-81-mil-alivio-juros-fed",
-    "title": "Bitcoin supera US$ 81 mil com alívio nas apostas de juros do Fed",
-    "excerpt": "Bitcoin supera US$ 81 mil nesta sexta-feira (4/9), maior nível desde maio, após fala do dirigente do Fed Christopher Waller aliviar aversão a risco.",
-    "paragraphs": [
-      "O Bitcoin superou os US$ 81 mil nesta sexta-feira (4/9), com alta de mais de 5% em 24 horas e o maior patamar desde meados de maio, movimento acompanhado por Ethereum, XRP, Solana e BNB, também em forte alta no dia.",
-      "A escalada foi puxada por comentários do dirigente do Federal Reserve Christopher Waller, que sinalizou foco no próximo relatório de inflação em vez de uma postura mais dura sobre juros — o que reduziu a aversão a risco e ajudou a atrair o maior volume de entradas em ETFs de Bitcoin em nove meses."
-    ],
-    "sourceLabel": "Money Times",
-    "sourceUrl": "https://www.moneytimes.com.br/bom-dia-bitcoin-btc-criptomoedas-precos-hoje-rens-040926/",
-    "date": "2026-09-04T14:20:40.000Z"
-  },
-  {
-    "slug": "petrobras-petr4-santander-compra-alvo-60",
-    "title": "Santander eleva Petrobras (PETR4) para compra e vê preço-alvo de R$ 60",
-    "excerpt": "Santander eleva recomendação da Petrobras para compra e revisa preço-alvo de R$ 35 para R$ 60, projetando dividend yield de cerca de 10% em 2026.",
-    "paragraphs": [
-      "O Santander elevou a recomendação para as ações da Petrobras de neutro para compra, revisando o preço-alvo da ação ordinária de R$ 35 para R$ 60, ao avaliar que a cotação atual do papel ainda não reflete todo o potencial de alta na produção de exploração e produção nem a tese de geração de caixa e retorno aos acionistas.",
-      "O banco projeta um dividend yield de cerca de 10% para a Petrobras em 2026, com a companhia priorizando a redução do endividamento — a estatal também aparece entre as ações mais presentes nas carteiras recomendadas de corretoras para setembro."
-    ],
-    "sourceLabel": "InfoMoney",
-    "sourceUrl": "https://www.infomoney.com.br/mercados/petr4-santander-eleva-petrobras-para-compra-e-ve-acao-sem-refletir-todo-potencial/",
-    "date": "2026-09-04T14:21:00.000Z"
-  },
-  {
-    "slug": "dolar-cai-509-terceira-baixa-seguida",
-    "title": "Dólar cai a R$ 5,09 e emenda terceira baixa seguida frente ao real",
-    "excerpt": "O dólar caiu a R$ 5,09 nesta quinta-feira, na terceira sessão seguida de baixa, com o real se fortalecendo em meio à entrada de investimentos em ativos brasileiros.",
-    "paragraphs": [
-      "O dólar comercial operava em queda nesta quinta-feira (3/9), negociado perto de R$ 5,09, na terceira sessão seguida de baixa frente ao real.",
-      "O real se fortaleceu cerca de 1,25% no pregão anterior, refletindo a entrada de investimentos em ativos brasileiros em meio ao otimismo do mercado com o cenário político e comercial."
-    ],
-    "sourceLabel": "Rio Times Online",
-    "sourceUrl": "https://www.riotimesonline.com/brazil-markets-ibovespa-real-thursday-september-3-2026/",
-    "date": "2026-09-03T15:37:34.262Z"
-  },
-  {
-    "slug": "mglu3-dispara-20-acordo-mercado-livre",
-    "title": "Magazine Luiza (MGLU3) dispara mais de 20% após acordo com Mercado Livre",
-    "excerpt": "Magazine Luiza (MGLU3) dispara mais de 20% após fechar parceria com o Mercado Livre para vender cerca de 27 mil produtos no marketplace da concorrente.",
-    "paragraphs": [
-      "As ações do Magazine Luiza (MGLU3) dispararam mais de 20% na quarta-feira (2/9), após a companhia anunciar uma parceria com o Mercado Livre para vender cerca de 27 mil produtos no marketplace da concorrente.",
-      "O acordo inclui itens das marcas Magazine Luiza, KaBuM! e Época Cosméticos, com a logística das entregas a cargo do Magalog, operador logístico do próprio grupo — as vendas devem começar ainda em setembro."
-    ],
-    "sourceLabel": "ADVFN News",
-    "sourceUrl": "https://br.advfn.com/jornal/2026/09/magazine-luiza-dispara-17-apos-parceria-com-mercado-livre-para-vender-27-mil-produtos",
-    "date": "2026-09-03T15:37:34.276Z"
-  },
-  {
-    "slug": "bitcoin-supera-775-mil-ethereum-avanca",
-    "title": "Bitcoin volta a superar US$ 77,5 mil e Ethereum também avança",
-    "excerpt": "Bitcoin voltou a superar US$ 77,5 mil, com alta de 1,07% em 24h, e Ethereum avançou 0,82%, a US$ 2.391, nesta quinta-feira.",
-    "paragraphs": [
-      "O Bitcoin voltou a superar os US$ 77,5 mil nesta quinta-feira (3/9), com alta de 1,07% em 24 horas, negociado a US$ 77.477,75.",
-      "O Ethereum também avançava, com alta de 0,82%, cotado a US$ 2.391,38, num movimento que se estendeu a outras criptomoedas mesmo em meio a desafios macroeconômicos internacionais."
-    ],
-    "sourceLabel": "Yahoo Finance",
-    "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-3-2026-crypto-prices-lift-this-morning-despite-oil-costs-gaining-steam-113526770.html",
-    "date": "2026-09-03T15:37:34.276Z"
-  },
-  {
-    "slug": "quaest-lula-flavio-empate-tecnico-2turno",
-    "title": "Pesquisa Quaest mostra Lula e Flávio Bolsonaro em empate técnico no 2º turno",
-    "excerpt": "Pesquisa Quaest mostra Lula (42%) e Flávio Bolsonaro (41%) tecnicamente empatados num cenário de 2º turno, com a vantagem do petista encolhendo desde agosto.",
-    "paragraphs": [
-      "Uma pesquisa Quaest divulgada nesta quarta-feira (2/9) mostra o presidente Luiz Inácio Lula da Silva com 42% das intenções de voto num cenário de segundo turno, contra 41% do senador Flávio Bolsonaro — um empate técnico dentro da margem de erro.",
-      "A vantagem do petista caiu de três para um ponto percentual desde a rodada anterior, divulgada em 14 de agosto. O resultado foi um dos fatores citados pelo mercado para explicar o apetite por risco em ativos brasileiros nesta semana."
-    ],
-    "sourceLabel": "Jornal de Brasília",
-    "sourceUrl": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pesquisa-quaest-mostra-lula-e-flavio-em-empate-tecnico-no-2o-turno/",
-    "date": "2026-09-03T15:37:34.276Z"
   }
 ]
